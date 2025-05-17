@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gajok\\SwiftStocks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\appsettings.json",
+              "RelativeDocumentMoniker": "SwiftStocks\\appsettings.json",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\appsettings.json*",
+              "RelativeToolTip": "SwiftStocks\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-17T11:46:17.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8832,6 +8832,304 @@
       ]
     },
     {
+      "Route": "css/navbar.css",
+      "AssetFile": "css/navbar.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000956022945"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lBP77GWicWqO235B4HNUd5J3R/LGstG78TIsQRM2LzA=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 10:21:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30="
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.css",
+      "AssetFile": "css/navbar.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 10:21:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30="
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.css.gz",
+      "AssetFile": "css/navbar.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lBP77GWicWqO235B4HNUd5J3R/LGstG78TIsQRM2LzA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 10:21:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lBP77GWicWqO235B4HNUd5J3R/LGstG78TIsQRM2LzA="
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.kea2oy9jtx.css",
+      "AssetFile": "css/navbar.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000956022945"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lBP77GWicWqO235B4HNUd5J3R/LGstG78TIsQRM2LzA=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 10:21:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kea2oy9jtx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30="
+        },
+        {
+          "Name": "label",
+          "Value": "css/navbar.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.kea2oy9jtx.css",
+      "AssetFile": "css/navbar.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 10:21:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kea2oy9jtx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30="
+        },
+        {
+          "Name": "label",
+          "Value": "css/navbar.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.kea2oy9jtx.css.gz",
+      "AssetFile": "css/navbar.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lBP77GWicWqO235B4HNUd5J3R/LGstG78TIsQRM2LzA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 10:21:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kea2oy9jtx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lBP77GWicWqO235B4HNUd5J3R/LGstG78TIsQRM2LzA="
+        },
+        {
+          "Name": "label",
+          "Value": "css/navbar.css.gz"
+        }
+      ]
+    },
+    {
       "Route": "css/site.b9sayid5wm.css",
       "AssetFile": "css/site.css.gz",
       "Selectors": [

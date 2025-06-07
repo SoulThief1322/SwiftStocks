@@ -28,6 +28,7 @@ body {
   display: flex;
   justify-content: center;
   width: auto;
+  z-index: 1000;
 }
 
 .navbar__link {

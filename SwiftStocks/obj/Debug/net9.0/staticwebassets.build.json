@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "djGXncb5NfdSvGGYcc/30M6ZidKdm6TpCAVGeyH/r1U=",
+  "Hash": "BF5ejFRK3R4IzUJoRnHMPtkfhJK0+E7lZ7TMpJmQAWM=",
   "Source": "SwiftStocks",
   "BasePath": "_content/SwiftStocks",
   "Mode": "Default",
@@ -1613,6 +1613,27 @@
       "OriginalItemSpec": "C:\\Users\\gajok\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\4a41ka496y-5ipweew5fc.gz",
+      "SourceId": "SwiftStocks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SwiftStocks",
+      "RelativePath": "js/home#[.{fingerprint=5ipweew5fc}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\home.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\home.js"
+    },
+    {
       "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\4jo0e0k08c-dxx9fxp4il.gz",
       "SourceId": "SwiftStocks",
       "SourceType": "Discovered",
@@ -1884,6 +1905,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gajok\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\a2yec02how-wr9s3ts5b4.gz",
+      "SourceId": "SwiftStocks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SwiftStocks",
+      "RelativePath": "css/footer#[.{fingerprint=wr9s3ts5b4}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\footer.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "x20oppc7rb",
+      "Integrity": "aVPr4V3eW2hRUix8/2445HDL5o/mt4R/ZZFBMNXvzFw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\footer.css"
     },
     {
       "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\a3ygkwa5zy-2z0ns9nrw6.gz",
@@ -2159,12 +2201,12 @@
       "OriginalItemSpec": "C:\\Users\\gajok\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\enpjbj405i-xtxxf3hu2r.gz",
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\enpjbj405i-6hu71yvlb3.gz",
       "SourceId": "SwiftStocks",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SwiftStocks",
-      "RelativePath": "js/site#[.{fingerprint=xtxxf3hu2r}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=6hu71yvlb3}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2173,8 +2215,8 @@
       "RelatedAsset": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "rl5dcbfpcw",
-      "Integrity": "Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=",
+      "Fingerprint": "6k5r3hpi5h",
+      "Integrity": "5ivn4QcH44dTb1ggVHGw538kEDKpbHA20ejUQEvWBBo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\site.js"
@@ -2600,12 +2642,12 @@
       "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jldod95xoq-kea2oy9jtx.gz",
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jldod95xoq-35j3hctig9.gz",
       "SourceId": "SwiftStocks",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SwiftStocks",
-      "RelativePath": "css/navbar#[.{fingerprint=kea2oy9jtx}]?.css.gz",
+      "RelativePath": "css/navbar#[.{fingerprint=35j3hctig9}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2614,8 +2656,8 @@
       "RelatedAsset": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\navbar.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "gjv3mptahk",
-      "Integrity": "lBP77GWicWqO235B4HNUd5J3R/LGstG78TIsQRM2LzA=",
+      "Fingerprint": "2o0ezluyyc",
+      "Integrity": "Hi47Dn8RJCfDiPMBbqP9YRGKdqWTE0N+TICsxp8HD4U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\navbar.css"
@@ -2789,12 +2831,12 @@
       "OriginalItemSpec": "C:\\Users\\gajok\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\linxtfc04q-2t6t08s574.gz",
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\linxtfc04q-d9ro0wkzab.gz",
       "SourceId": "SwiftStocks",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SwiftStocks",
-      "RelativePath": "SwiftStocks#[.{fingerprint=2t6t08s574}]?.styles.css.gz",
+      "RelativePath": "SwiftStocks#[.{fingerprint=d9ro0wkzab}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -2803,8 +2845,8 @@
       "RelatedAsset": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\scopedcss\\bundle\\SwiftStocks.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "h8tyhj9ulx",
-      "Integrity": "f0p9F+ue1UiyIH88+/ylCJ4KZLJRpEbgGVjzsnjc3Jw=",
+      "Fingerprint": "7cj52sf48m",
+      "Integrity": "2ezjlfdkxMD+EWx/9GQujJMiYQOAggQn7mMH1NTfYfk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\scopedcss\\bundle\\SwiftStocks.styles.css"
@@ -2873,6 +2915,27 @@
       "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\lz6sr2yeti-lodeqkrfb1.gz",
+      "SourceId": "SwiftStocks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SwiftStocks",
+      "RelativePath": "css/home#[.{fingerprint=lodeqkrfb1}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\home.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xi0a1rslzs",
+      "Integrity": "KQ70kgn0TJVqv8NIKgTsw3ZJ9NZLsCUNcJIeJfyHgJ0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\home.css"
+    },
+    {
       "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\narna5gwix-63fj8s7r0e.gz",
       "SourceId": "SwiftStocks",
       "SourceType": "Discovered",
@@ -2915,12 +2978,12 @@
       "OriginalItemSpec": "C:\\Users\\gajok\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\nkf1254asq-2t6t08s574.gz",
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\nkf1254asq-d9ro0wkzab.gz",
       "SourceId": "SwiftStocks",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SwiftStocks",
-      "RelativePath": "SwiftStocks#[.{fingerprint=2t6t08s574}]!.bundle.scp.css.gz",
+      "RelativePath": "SwiftStocks#[.{fingerprint=d9ro0wkzab}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -2929,8 +2992,8 @@
       "RelatedAsset": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SwiftStocks.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "h8tyhj9ulx",
-      "Integrity": "f0p9F+ue1UiyIH88+/ylCJ4KZLJRpEbgGVjzsnjc3Jw=",
+      "Fingerprint": "7cj52sf48m",
+      "Integrity": "2ezjlfdkxMD+EWx/9GQujJMiYQOAggQn7mMH1NTfYfk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SwiftStocks.bundle.scp.css"
@@ -4021,8 +4084,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "2t6t08s574",
-      "Integrity": "ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM=",
+      "Fingerprint": "d9ro0wkzab",
+      "Integrity": "/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\scopedcss\\bundle\\SwiftStocks.styles.css"
@@ -4042,11 +4105,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "2t6t08s574",
-      "Integrity": "ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM=",
+      "Fingerprint": "d9ro0wkzab",
+      "Integrity": "/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SwiftStocks.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\footer.css",
+      "SourceId": "SwiftStocks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\",
+      "BasePath": "_content/SwiftStocks",
+      "RelativePath": "css/footer#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wr9s3ts5b4",
+      "Integrity": "fJdd41UhsHJPPJx2qrfXehE8KuRYwGoHUyA9lHut6WI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\footer.css"
+    },
+    {
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\home.css",
+      "SourceId": "SwiftStocks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\",
+      "BasePath": "_content/SwiftStocks",
+      "RelativePath": "css/home#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lodeqkrfb1",
+      "Integrity": "xdYk/Q0DPWQykvRK51i/JmafNv2wgfs3/NA/NafCfkY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
       "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\navbar.css",
@@ -4063,8 +4168,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kea2oy9jtx",
-      "Integrity": "LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30=",
+      "Fingerprint": "35j3hctig9",
+      "Integrity": "WcvAwt3BxS2J5UVAeBHDy2zQis7HayWfSRKO0O1HXNM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\navbar.css"
@@ -4112,6 +4217,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\home.js",
+      "SourceId": "SwiftStocks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\",
+      "BasePath": "_content/SwiftStocks",
+      "RelativePath": "js/home#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\home.js"
+    },
+    {
       "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\site.js",
       "SourceId": "SwiftStocks",
       "SourceType": "Discovered",
@@ -4126,8 +4252,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "6hu71yvlb3",
+      "Integrity": "Ci+OMtn5yHVCWsuD4Tsfh+0O0Ff9fbznOom9mOTY++Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -5395,13 +5521,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/navbar.css",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jldod95xoq-kea2oy9jtx.gz",
+      "Route": "css/footer.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\a2yec02how-wr9s3ts5b4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000956022945"
+          "Quality": "0.000962463908"
         }
       ],
       "ResponseHeaders": [
@@ -5411,15 +5537,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1045"
+          "Value": "1038"
         },
         {
           "Name": "ETag",
-          "Value": "\"lBP77GWicWqO235B4HNUd5J3R/LGstG78TIsQRM2LzA=\""
+          "Value": "\"aVPr4V3eW2hRUix8/2445HDL5o/mt4R/ZZFBMNXvzFw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Jun 2025 10:21:46 GMT"
+          "Value": "Sat, 07 Jun 2025 14:58:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5439,18 +5565,622 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30=\""
+          "Value": "W/\"fJdd41UhsHJPPJx2qrfXehE8KuRYwGoHUyA9lHut6WI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30="
+          "Value": "sha256-fJdd41UhsHJPPJx2qrfXehE8KuRYwGoHUyA9lHut6WI="
         }
       ]
     },
     {
-      "Route": "css/navbar.css",
+      "Route": "css/footer.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\footer.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3491"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fJdd41UhsHJPPJx2qrfXehE8KuRYwGoHUyA9lHut6WI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 14:58:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fJdd41UhsHJPPJx2qrfXehE8KuRYwGoHUyA9lHut6WI="
+        }
+      ]
+    },
+    {
+      "Route": "css/footer.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\a2yec02how-wr9s3ts5b4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aVPr4V3eW2hRUix8/2445HDL5o/mt4R/ZZFBMNXvzFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 14:58:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aVPr4V3eW2hRUix8/2445HDL5o/mt4R/ZZFBMNXvzFw="
+        }
+      ]
+    },
+    {
+      "Route": "css/footer.wr9s3ts5b4.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\a2yec02how-wr9s3ts5b4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000962463908"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1038"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aVPr4V3eW2hRUix8/2445HDL5o/mt4R/ZZFBMNXvzFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 14:58:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fJdd41UhsHJPPJx2qrfXehE8KuRYwGoHUyA9lHut6WI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wr9s3ts5b4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/footer.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fJdd41UhsHJPPJx2qrfXehE8KuRYwGoHUyA9lHut6WI="
+        }
+      ]
+    },
+    {
+      "Route": "css/footer.wr9s3ts5b4.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\footer.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3491"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fJdd41UhsHJPPJx2qrfXehE8KuRYwGoHUyA9lHut6WI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 14:58:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wr9s3ts5b4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/footer.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fJdd41UhsHJPPJx2qrfXehE8KuRYwGoHUyA9lHut6WI="
+        }
+      ]
+    },
+    {
+      "Route": "css/footer.wr9s3ts5b4.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\a2yec02how-wr9s3ts5b4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aVPr4V3eW2hRUix8/2445HDL5o/mt4R/ZZFBMNXvzFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 14:58:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wr9s3ts5b4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/footer.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aVPr4V3eW2hRUix8/2445HDL5o/mt4R/ZZFBMNXvzFw="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\lz6sr2yeti-lodeqkrfb1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000432900433"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2309"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KQ70kgn0TJVqv8NIKgTsw3ZJ9NZLsCUNcJIeJfyHgJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:17:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xdYk/Q0DPWQykvRK51i/JmafNv2wgfs3/NA/NafCfkY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xdYk/Q0DPWQykvRK51i/JmafNv2wgfs3/NA/NafCfkY="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9942"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xdYk/Q0DPWQykvRK51i/JmafNv2wgfs3/NA/NafCfkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:17:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xdYk/Q0DPWQykvRK51i/JmafNv2wgfs3/NA/NafCfkY="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\lz6sr2yeti-lodeqkrfb1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KQ70kgn0TJVqv8NIKgTsw3ZJ9NZLsCUNcJIeJfyHgJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:17:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KQ70kgn0TJVqv8NIKgTsw3ZJ9NZLsCUNcJIeJfyHgJ0="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.lodeqkrfb1.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\lz6sr2yeti-lodeqkrfb1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000432900433"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2309"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KQ70kgn0TJVqv8NIKgTsw3ZJ9NZLsCUNcJIeJfyHgJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:17:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xdYk/Q0DPWQykvRK51i/JmafNv2wgfs3/NA/NafCfkY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lodeqkrfb1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/home.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xdYk/Q0DPWQykvRK51i/JmafNv2wgfs3/NA/NafCfkY="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.lodeqkrfb1.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9942"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xdYk/Q0DPWQykvRK51i/JmafNv2wgfs3/NA/NafCfkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:17:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lodeqkrfb1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/home.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xdYk/Q0DPWQykvRK51i/JmafNv2wgfs3/NA/NafCfkY="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.lodeqkrfb1.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\lz6sr2yeti-lodeqkrfb1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KQ70kgn0TJVqv8NIKgTsw3ZJ9NZLsCUNcJIeJfyHgJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:17:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lodeqkrfb1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/home.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KQ70kgn0TJVqv8NIKgTsw3ZJ9NZLsCUNcJIeJfyHgJ0="
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.35j3hctig9.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jldod95xoq-35j3hctig9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000947867299"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hi47Dn8RJCfDiPMBbqP9YRGKdqWTE0N+TICsxp8HD4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:08:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WcvAwt3BxS2J5UVAeBHDy2zQis7HayWfSRKO0O1HXNM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "35j3hctig9"
+        },
+        {
+          "Name": "label",
+          "Value": "css/navbar.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WcvAwt3BxS2J5UVAeBHDy2zQis7HayWfSRKO0O1HXNM="
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.35j3hctig9.css",
       "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\navbar.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5460,7 +6190,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3751"
+          "Value": "3769"
         },
         {
           "Name": "Content-Type",
@@ -5468,121 +6198,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30=\""
+          "Value": "\"WcvAwt3BxS2J5UVAeBHDy2zQis7HayWfSRKO0O1HXNM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Jun 2025 10:21:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30="
-        }
-      ]
-    },
-    {
-      "Route": "css/navbar.css.gz",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jldod95xoq-kea2oy9jtx.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1045"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lBP77GWicWqO235B4HNUd5J3R/LGstG78TIsQRM2LzA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 01 Jun 2025 10:21:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-lBP77GWicWqO235B4HNUd5J3R/LGstG78TIsQRM2LzA="
-        }
-      ]
-    },
-    {
-      "Route": "css/navbar.kea2oy9jtx.css",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jldod95xoq-kea2oy9jtx.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000956022945"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1045"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lBP77GWicWqO235B4HNUd5J3R/LGstG78TIsQRM2LzA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 01 Jun 2025 10:21:46 GMT"
+          "Value": "Sun, 01 Jun 2025 14:08:53 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kea2oy9jtx"
+          "Value": "35j3hctig9"
         },
         {
           "Name": "label",
@@ -5590,13 +6220,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30="
+          "Value": "sha256-WcvAwt3BxS2J5UVAeBHDy2zQis7HayWfSRKO0O1HXNM="
         }
       ]
     },
     {
-      "Route": "css/navbar.kea2oy9jtx.css",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\navbar.css",
+      "Route": "css/navbar.35j3hctig9.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jldod95xoq-35j3hctig9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5605,7 +6235,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3751"
+          "Value": "1054"
         },
         {
           "Name": "Content-Type",
@@ -5613,56 +6243,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30=\""
+          "Value": "\"Hi47Dn8RJCfDiPMBbqP9YRGKdqWTE0N+TICsxp8HD4U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Jun 2025 10:21:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "kea2oy9jtx"
-        },
-        {
-          "Name": "label",
-          "Value": "css/navbar.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-LNGpNaPpd21t31twPv4eaGhK1MYG7TsFb3YUbX7jZ30="
-        }
-      ]
-    },
-    {
-      "Route": "css/navbar.kea2oy9jtx.css.gz",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jldod95xoq-kea2oy9jtx.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1045"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lBP77GWicWqO235B4HNUd5J3R/LGstG78TIsQRM2LzA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 01 Jun 2025 10:21:46 GMT"
+          "Value": "Sun, 01 Jun 2025 14:08:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5680,7 +6265,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kea2oy9jtx"
+          "Value": "35j3hctig9"
         },
         {
           "Name": "label",
@@ -5688,7 +6273,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lBP77GWicWqO235B4HNUd5J3R/LGstG78TIsQRM2LzA="
+          "Value": "sha256-Hi47Dn8RJCfDiPMBbqP9YRGKdqWTE0N+TICsxp8HD4U="
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jldod95xoq-35j3hctig9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000947867299"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hi47Dn8RJCfDiPMBbqP9YRGKdqWTE0N+TICsxp8HD4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:08:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WcvAwt3BxS2J5UVAeBHDy2zQis7HayWfSRKO0O1HXNM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WcvAwt3BxS2J5UVAeBHDy2zQis7HayWfSRKO0O1HXNM="
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\navbar.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WcvAwt3BxS2J5UVAeBHDy2zQis7HayWfSRKO0O1HXNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:08:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WcvAwt3BxS2J5UVAeBHDy2zQis7HayWfSRKO0O1HXNM="
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jldod95xoq-35j3hctig9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hi47Dn8RJCfDiPMBbqP9YRGKdqWTE0N+TICsxp8HD4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:08:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hi47Dn8RJCfDiPMBbqP9YRGKdqWTE0N+TICsxp8HD4U="
         }
       ]
     },
@@ -5717,7 +6439,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:32:26 GMT"
+          "Value": "Sat, 07 Jun 2025 15:16:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5778,7 +6500,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:32:26 GMT"
+          "Value": "Sat, 07 Jun 2025 15:16:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5823,7 +6545,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:32:26 GMT"
+          "Value": "Sat, 07 Jun 2025 15:16:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5915,7 +6637,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:32:26 GMT"
+          "Value": "Sat, 07 Jun 2025 15:16:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5968,7 +6690,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:32:26 GMT"
+          "Value": "Sat, 07 Jun 2025 15:16:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6005,7 +6727,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:32:26 GMT"
+          "Value": "Sat, 07 Jun 2025 15:16:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14894,6 +15616,465 @@
       ]
     },
     {
+      "Route": "js/home.5ipweew5fc.js",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\4a41ka496y-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:19:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/home.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.5ipweew5fc.js",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\home.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:19:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/home.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.5ipweew5fc.js.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\4a41ka496y-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:19:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/home.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.js",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\4a41ka496y-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:19:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.js",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\home.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:19:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.js.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\4a41ka496y-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:19:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.6hu71yvlb3.js",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\enpjbj405i-6hu71yvlb3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003787878788"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "263"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ivn4QcH44dTb1ggVHGw538kEDKpbHA20ejUQEvWBBo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:20:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Ci+OMtn5yHVCWsuD4Tsfh+0O0Ff9fbznOom9mOTY++Q=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6hu71yvlb3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ci+OMtn5yHVCWsuD4Tsfh+0O0Ff9fbznOom9mOTY++Q="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.6hu71yvlb3.js",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "456"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ci+OMtn5yHVCWsuD4Tsfh+0O0Ff9fbznOom9mOTY++Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:20:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6hu71yvlb3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ci+OMtn5yHVCWsuD4Tsfh+0O0Ff9fbznOom9mOTY++Q="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.6hu71yvlb3.js.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\enpjbj405i-6hu71yvlb3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "263"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ivn4QcH44dTb1ggVHGw538kEDKpbHA20ejUQEvWBBo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 15:20:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6hu71yvlb3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5ivn4QcH44dTb1ggVHGw538kEDKpbHA20ejUQEvWBBo="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\gajok\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\js\\site.js",
       "Selectors": [],
@@ -14932,12 +16113,12 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\enpjbj405i-xtxxf3hu2r.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\enpjbj405i-6hu71yvlb3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005263157895"
+          "Quality": "0.003787878788"
         }
       ],
       "ResponseHeaders": [
@@ -14947,15 +16128,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "189"
+          "Value": "263"
         },
         {
           "Name": "ETag",
-          "Value": "\"Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=\""
+          "Value": "\"5ivn4QcH44dTb1ggVHGw538kEDKpbHA20ejUQEvWBBo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:32:26 GMT"
+          "Value": "Sat, 07 Jun 2025 15:20:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14975,13 +16156,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "W/\"Ci+OMtn5yHVCWsuD4Tsfh+0O0Ff9fbznOom9mOTY++Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-Ci+OMtn5yHVCWsuD4Tsfh+0O0Ff9fbznOom9mOTY++Q="
         }
       ]
     },
@@ -14996,7 +16177,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "456"
         },
         {
           "Name": "Content-Type",
@@ -15004,11 +16185,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"Ci+OMtn5yHVCWsuD4Tsfh+0O0Ff9fbznOom9mOTY++Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:32:26 GMT"
+          "Value": "Sat, 07 Jun 2025 15:20:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15018,13 +16199,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-Ci+OMtn5yHVCWsuD4Tsfh+0O0Ff9fbznOom9mOTY++Q="
         }
       ]
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\enpjbj405i-xtxxf3hu2r.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\enpjbj405i-6hu71yvlb3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15033,7 +16214,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "189"
+          "Value": "263"
         },
         {
           "Name": "Content-Type",
@@ -15041,11 +16222,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=\""
+          "Value": "\"5ivn4QcH44dTb1ggVHGw538kEDKpbHA20ejUQEvWBBo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:32:26 GMT"
+          "Value": "Sat, 07 Jun 2025 15:20:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15063,168 +16244,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\enpjbj405i-xtxxf3hu2r.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.005263157895"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "189"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:32:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:32:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js.gz",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\enpjbj405i-xtxxf3hu2r.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "189"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:32:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA="
+          "Value": "sha256-5ivn4QcH44dTb1ggVHGw538kEDKpbHA20ejUQEvWBBo="
         }
       ]
     },
@@ -35113,13 +36133,13 @@
       ]
     },
     {
-      "Route": "SwiftStocks.2t6t08s574.bundle.scp.css",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\nkf1254asq-2t6t08s574.gz",
+      "Route": "SwiftStocks.bundle.scp.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\nkf1254asq-d9ro0wkzab.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001845018450"
+          "Quality": "0.011363636364"
         }
       ],
       "ResponseHeaders": [
@@ -35129,19 +36149,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "87"
         },
         {
           "Name": "ETag",
-          "Value": "\"f0p9F+ue1UiyIH88+/ylCJ4KZLJRpEbgGVjzsnjc3Jw=\""
+          "Value": "\"2ezjlfdkxMD+EWx/9GQujJMiYQOAggQn7mMH1NTfYfk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:34:48 GMT"
+          "Value": "Sat, 07 Jun 2025 14:56:57 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -35157,26 +36177,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM=\""
+          "Value": "W/\"/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "2t6t08s574"
-        },
-        {
-          "Name": "label",
-          "Value": "SwiftStocks.bundle.scp.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM="
+          "Value": "sha256-/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao="
         }
       ]
     },
     {
-      "Route": "SwiftStocks.2t6t08s574.bundle.scp.css",
+      "Route": "SwiftStocks.bundle.scp.css",
       "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SwiftStocks.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -35186,7 +36198,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1129"
+          "Value": "67"
         },
         {
           "Name": "Content-Type",
@@ -35194,11 +36206,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM=\""
+          "Value": "\"/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:34:48 GMT"
+          "Value": "Sat, 07 Jun 2025 14:56:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao="
+        }
+      ]
+    },
+    {
+      "Route": "SwiftStocks.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\nkf1254asq-d9ro0wkzab.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2ezjlfdkxMD+EWx/9GQujJMiYQOAggQn7mMH1NTfYfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 14:56:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2ezjlfdkxMD+EWx/9GQujJMiYQOAggQn7mMH1NTfYfk="
+        }
+      ]
+    },
+    {
+      "Route": "SwiftStocks.d9ro0wkzab.bundle.scp.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\nkf1254asq-d9ro0wkzab.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.011363636364"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2ezjlfdkxMD+EWx/9GQujJMiYQOAggQn7mMH1NTfYfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 14:56:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d9ro0wkzab"
+        },
+        {
+          "Name": "label",
+          "Value": "SwiftStocks.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao="
+        }
+      ]
+    },
+    {
+      "Route": "SwiftStocks.d9ro0wkzab.bundle.scp.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SwiftStocks.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 14:56:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35208,7 +36365,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2t6t08s574"
+          "Value": "d9ro0wkzab"
         },
         {
           "Name": "label",
@@ -35216,13 +36373,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM="
+          "Value": "sha256-/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao="
         }
       ]
     },
     {
-      "Route": "SwiftStocks.2t6t08s574.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\nkf1254asq-2t6t08s574.gz",
+      "Route": "SwiftStocks.d9ro0wkzab.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\nkf1254asq-d9ro0wkzab.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -35231,7 +36388,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "87"
         },
         {
           "Name": "Content-Type",
@@ -35239,11 +36396,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"f0p9F+ue1UiyIH88+/ylCJ4KZLJRpEbgGVjzsnjc3Jw=\""
+          "Value": "\"2ezjlfdkxMD+EWx/9GQujJMiYQOAggQn7mMH1NTfYfk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:34:48 GMT"
+          "Value": "Sat, 07 Jun 2025 14:56:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35261,7 +36418,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2t6t08s574"
+          "Value": "d9ro0wkzab"
         },
         {
           "Name": "label",
@@ -35269,18 +36426,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-f0p9F+ue1UiyIH88+/ylCJ4KZLJRpEbgGVjzsnjc3Jw="
+          "Value": "sha256-2ezjlfdkxMD+EWx/9GQujJMiYQOAggQn7mMH1NTfYfk="
         }
       ]
     },
     {
-      "Route": "SwiftStocks.2t6t08s574.styles.css",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\linxtfc04q-2t6t08s574.gz",
+      "Route": "SwiftStocks.d9ro0wkzab.styles.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\linxtfc04q-d9ro0wkzab.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001845018450"
+          "Quality": "0.011363636364"
         }
       ],
       "ResponseHeaders": [
@@ -35290,15 +36447,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "87"
         },
         {
           "Name": "ETag",
-          "Value": "\"f0p9F+ue1UiyIH88+/ylCJ4KZLJRpEbgGVjzsnjc3Jw=\""
+          "Value": "\"2ezjlfdkxMD+EWx/9GQujJMiYQOAggQn7mMH1NTfYfk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:34:48 GMT"
+          "Value": "Sat, 07 Jun 2025 14:56:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35318,13 +36475,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM=\""
+          "Value": "W/\"/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2t6t08s574"
+          "Value": "d9ro0wkzab"
         },
         {
           "Name": "label",
@@ -35332,12 +36489,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM="
+          "Value": "sha256-/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao="
         }
       ]
     },
     {
-      "Route": "SwiftStocks.2t6t08s574.styles.css",
+      "Route": "SwiftStocks.d9ro0wkzab.styles.css",
       "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\scopedcss\\bundle\\SwiftStocks.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -35347,7 +36504,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1129"
+          "Value": "67"
         },
         {
           "Name": "Content-Type",
@@ -35355,11 +36512,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM=\""
+          "Value": "\"/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:34:48 GMT"
+          "Value": "Sat, 07 Jun 2025 14:56:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35369,7 +36526,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2t6t08s574"
+          "Value": "d9ro0wkzab"
         },
         {
           "Name": "label",
@@ -35377,13 +36534,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM="
+          "Value": "sha256-/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao="
         }
       ]
     },
     {
-      "Route": "SwiftStocks.2t6t08s574.styles.css.gz",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\linxtfc04q-2t6t08s574.gz",
+      "Route": "SwiftStocks.d9ro0wkzab.styles.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\linxtfc04q-d9ro0wkzab.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -35392,7 +36549,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "87"
         },
         {
           "Name": "Content-Type",
@@ -35400,11 +36557,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"f0p9F+ue1UiyIH88+/ylCJ4KZLJRpEbgGVjzsnjc3Jw=\""
+          "Value": "\"2ezjlfdkxMD+EWx/9GQujJMiYQOAggQn7mMH1NTfYfk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:34:48 GMT"
+          "Value": "Sat, 07 Jun 2025 14:56:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35422,7 +36579,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2t6t08s574"
+          "Value": "d9ro0wkzab"
         },
         {
           "Name": "label",
@@ -35430,155 +36587,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-f0p9F+ue1UiyIH88+/ylCJ4KZLJRpEbgGVjzsnjc3Jw="
-        }
-      ]
-    },
-    {
-      "Route": "SwiftStocks.bundle.scp.css",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\nkf1254asq-2t6t08s574.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001845018450"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"f0p9F+ue1UiyIH88+/ylCJ4KZLJRpEbgGVjzsnjc3Jw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:34:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM="
-        }
-      ]
-    },
-    {
-      "Route": "SwiftStocks.bundle.scp.css",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SwiftStocks.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1129"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:34:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM="
-        }
-      ]
-    },
-    {
-      "Route": "SwiftStocks.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\nkf1254asq-2t6t08s574.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"f0p9F+ue1UiyIH88+/ylCJ4KZLJRpEbgGVjzsnjc3Jw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:34:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-f0p9F+ue1UiyIH88+/ylCJ4KZLJRpEbgGVjzsnjc3Jw="
+          "Value": "sha256-2ezjlfdkxMD+EWx/9GQujJMiYQOAggQn7mMH1NTfYfk="
         }
       ]
     },
     {
       "Route": "SwiftStocks.styles.css",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\linxtfc04q-2t6t08s574.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\linxtfc04q-d9ro0wkzab.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001845018450"
+          "Quality": "0.011363636364"
         }
       ],
       "ResponseHeaders": [
@@ -35588,15 +36608,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "87"
         },
         {
           "Name": "ETag",
-          "Value": "\"f0p9F+ue1UiyIH88+/ylCJ4KZLJRpEbgGVjzsnjc3Jw=\""
+          "Value": "\"2ezjlfdkxMD+EWx/9GQujJMiYQOAggQn7mMH1NTfYfk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:34:48 GMT"
+          "Value": "Sat, 07 Jun 2025 14:56:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35616,13 +36636,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM=\""
+          "Value": "W/\"/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM="
+          "Value": "sha256-/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao="
         }
       ]
     },
@@ -35637,7 +36657,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1129"
+          "Value": "67"
         },
         {
           "Name": "Content-Type",
@@ -35645,11 +36665,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM=\""
+          "Value": "\"/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:34:48 GMT"
+          "Value": "Sat, 07 Jun 2025 14:56:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35659,13 +36679,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ShjSwHETz3nsOKfoA+LzBTG4AViRkQ21ggg11URkzDM="
+          "Value": "sha256-/9+jAnwl1pLexXJTPPBqVJ4lYM7SRVvFYhA9D0nAvao="
         }
       ]
     },
     {
       "Route": "SwiftStocks.styles.css.gz",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\linxtfc04q-2t6t08s574.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\linxtfc04q-d9ro0wkzab.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -35674,7 +36694,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "87"
         },
         {
           "Name": "Content-Type",
@@ -35682,11 +36702,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"f0p9F+ue1UiyIH88+/ylCJ4KZLJRpEbgGVjzsnjc3Jw=\""
+          "Value": "\"2ezjlfdkxMD+EWx/9GQujJMiYQOAggQn7mMH1NTfYfk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 11:34:48 GMT"
+          "Value": "Sat, 07 Jun 2025 14:56:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35704,7 +36724,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-f0p9F+ue1UiyIH88+/ylCJ4KZLJRpEbgGVjzsnjc3Jw="
+          "Value": "sha256-2ezjlfdkxMD+EWx/9GQujJMiYQOAggQn7mMH1NTfYfk="
         }
       ]
     }

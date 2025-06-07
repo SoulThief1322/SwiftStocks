@@ -200,7 +200,6 @@ C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\v0zgfp0y55-87
 C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\wyvlxd0jg7-b9sayid5wm.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\eocjh0xonj-61n19gt1b8.gz
-C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\enpjbj405i-xtxxf3hu2r.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\2mfo9r5gi4-bqjiyaj88i.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\rd72k4sxv5-c2jlpeoesf.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\r9ozohhjro-erw9l3u2r3.gz
@@ -260,8 +259,6 @@ C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\ta2izqf7jb-2z
 C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\br7cx8hr7p-muycvpuwrr.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\jto1aaq3dq-87fc7y1x7t.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\618ftqzaze-mlv21k5csn.gz
-C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\linxtfc04q-2t6t08s574.gz
-C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\nkf1254asq-2t6t08s574.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -323,4 +320,10 @@ C:\Users\gajok\SwiftStocks\SwiftStocks\bin\Debug\net9.0\runtimes\win\lib\net6.0\
 C:\Users\gajok\SwiftStocks\SwiftStocks\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\gajok\SwiftStocks\SwiftStocks\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\gajok\SwiftStocks\SwiftStocks\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\jldod95xoq-kea2oy9jtx.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\jldod95xoq-35j3hctig9.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\a2yec02how-wr9s3ts5b4.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\linxtfc04q-d9ro0wkzab.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\nkf1254asq-d9ro0wkzab.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\lz6sr2yeti-lodeqkrfb1.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\4a41ka496y-5ipweew5fc.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\enpjbj405i-6hu71yvlb3.gz

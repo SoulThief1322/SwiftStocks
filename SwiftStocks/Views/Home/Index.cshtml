@@ -1,8 +1,188 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SwiftStocks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/SwiftStocks.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <section class="hero">
+        <div class="content">
+            <h1>Welcome to SwiftStocks</h1>
+            <p>Trade smarter with real-time insights and cutting-edge tools</p>
+            <button class="cta">Start Trading</button>
+        </div>
+    </section>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <!-- Live Market Ticker -->
+    <section class="market-ticker" aria-label="Live stock market ticker">
+      <span>
+        AAPL 174.36 ▲1.2% &nbsp;&nbsp;&nbsp; MSFT 304.12 ▼0.3% &nbsp;&nbsp;&nbsp; TSLA 685.43 ▲0.7% &nbsp;&nbsp;&nbsp; AMZN 134.56 ▼1.1% &nbsp;&nbsp;&nbsp; GOOG 2854.32 ▲0.9%
+      </span>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="card">
+            <h3>Real-time Market Data</h3>
+            <p>Access live stock prices and trends, updated every second.</p>
+        </div>
+        <div class="card">
+            <h3>Unleash the potential of effortless trading</h3>
+            <p>Our platform simplifies every step, empowering you to trade with confidence and efficiency. Start making smarter moves today.</p>
+        </div>
+        <div class="card">
+            <h3>Advanced Trading Tools</h3>
+            <p>Harness powerful features to execute trades with precision and ease.</p>
+        </div>
+    </section>
+
+    <!-- Dashboard Preview -->
+    <section class="dashboard-preview" aria-label="Trading dashboard preview">
+      <div class="chart-placeholder">
+        Chart Preview
+      </div>
+      <div class="text">
+        <h2>Powerful Trading Dashboard</h2>
+        <p>Visualize your portfolio and trades with interactive charts and intuitive controls — designed for traders of all levels.</p>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <div class="responsive-container-block big-container">
+        <div class="responsive-container-block bg">
+            <p class="text-blk title">
+                What Our Traders Say
+            </p>
+            <p class="text-blk desc">
+                Hear from real traders who have transformed their strategies using SwiftStocks.
+            </p>
+            <div class="responsive-container-block blocks">
+                <div class="responsive-cell-block wk-desk-1 wk-tab-1 wk-mobile-1 wk-ipadp-1 content">
+                    <p class="text-blk info-block">
+                        "SwiftStocks helped me gain real-time insights, which I used to make smarter trades. My portfolio has never been stronger!"
+                    </p>
+                    <div class="responsive-container-block person">
+                        <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 icon-block">
+                            <img class="profile-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors1.svg" alt="John Smith" />
+                        </div>
+                        <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 text-block">
+                            <p class="text-blk name">
+                                John Smith
+                            </p>
+                            <p class="text-blk desig">
+                                Stock Trader
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="responsive-cell-block wk-desk-1 wk-tab-1 wk-mobile-1 wk-ipadp-1 content">
+                    <p class="text-blk info-block">
+                        "I love how easy it is to track my trades. The tools provided by SwiftStocks are a game changer for any investor."
+                    </p>
+                    <div class="responsive-container-block person">
+                        <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 icon-block">
+                            <img class="profile-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors1.svg" alt="Emily Johnson" />
+                        </div>
+                        <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 text-block">
+                            <p class="text-blk name">
+                                Emily Johnson
+                            </p>
+                            <p class="text-blk desig">
+                                Day Trader
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="responsive-cell-block wk-desk-1 wk-tab-1 wk-mobile-1 wk-ipadp-1 content bottom">
+                    <p class="text-blk info-block">
+                        "With SwiftStocks, I’ve been able to diversify my portfolio with confidence, knowing I have accurate market data at my fingertips."
+                    </p>
+                    <div class="responsive-container-block person">
+                        <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 icon-block">
+                            <img class="profile-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors1.svg" alt="Michael Lee" />
+                        </div>
+                        <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 text-block">
+                            <p class="text-blk name">
+                                Michael Lee
+                            </p>
+                            <p class="text-blk desig">
+                                Investor
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trust & Security Section -->
+    <section class="trust-security" aria-label="Trust and Security features">
+      <div class="item">
+        <i class="fas fa-shield-alt"></i>
+        <p>Bank-grade encryption to keep your data safe</p>
+      </div>
+      <div class="item">
+        <i class="fas fa-check-circle"></i>
+        <p>Fully compliant with financial regulations</p>
+      </div>
+      <div class="item">
+        <i class="fas fa-user-secret"></i>
+        <p>Your privacy is our top priority</p>
+      </div>
+      <div class="item">
+        <i class="fas fa-cogs"></i>
+        <p>Reliable 24/7 customer support</p>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section class="faq" aria-label="Frequently asked questions">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <div class="faq-question">
+          How do I create an account?
+          <span><i class="fas fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">
+          Sign up with your email, verify your identity, and you’re ready to start trading.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          What are the fees?
+          <span><i class="fas fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">
+          We offer zero commission on most trades with transparent pricing on advanced tools.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          Is my money safe?
+          <span><i class="fas fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">
+          Absolutely. We use industry-standard security protocols and insurance to protect your funds.
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter" aria-label="Subscribe to newsletter">
+      <h2>Stay Ahead with SwiftStocks</h2>
+      <p>Get market insights, tips, and updates straight to your inbox.</p>
+      <form>
+        <input type="email" placeholder="Enter your email" aria-label="Email address" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+
+</html>

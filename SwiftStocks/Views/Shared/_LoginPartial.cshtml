@@ -1,26 +1,81 @@
-﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
+﻿@{
+    Layout = "_Layout";
+}
 
-<ul class="navbar-nav">
-@if (SignInManager.IsSignedIn(User))
-{
-    <li class="nav-item">
-        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
-    </li>
-    <li class="nav-item">
-        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
-        </form>
-    </li>
-}
-else
-{
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
-}
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SwiftStocks</title>
+    <link rel="stylesheet" href="@Url.Content("~/css/home.css")" />
+</head>
+<body>
+    <section class="hero">
+        <div class="content">
+            <h1>Welcome to SwiftStocks</h1>
+            <p>Trade smarter with real-time insights and cutting-edge tools</p>
+            <button class="cta">Start Trading</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="card">
+            <h3>Real-time Market Data</h3>
+            <p>Access live stock prices and trends, updated every second.</p>
+        </div>
+        <div class="card">
+            <h3>Unleash the potential of effortless trading</h3>
+            <p>Our platform simplifies every step, empowering you to trade with confidence and efficiency. Start making smarter moves today.</p>
+        </div>
+        <div class="card">
+            <h3>Advanced Trading Tools</h3>
+            <p>Harness powerful features to execute trades with precision and ease.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Traders Say</h2>
+            <p class="subtitle">Hear from real traders who have transformed their strategies using SwiftStocks.</p>
+
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <p>"SwiftStocks helped me gain real-time insights, which I used to make smarter trades. My portfolio has never been stronger!"</p>
+                    <div class="person">
+                        <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors1.svg" alt="John Smith" />
+                        <div class="person-info">
+                            <p class="name">John Smith</p>
+                            <p class="role">Stock Trader</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <p>"I love how easy it is to track my trades. The tools provided by SwiftStocks are a game changer for any investor."</p>
+                    <div class="person">
+                        <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors1.svg" alt="Emily Johnson" />
+                        <div class="person-info">
+                            <p class="name">Emily Johnson</p>
+                            <p class="role">Day Trader</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <p>"With SwiftStocks, I’ve been able to diversify my portfolio with confidence, knowing I have accurate market data at my fingertips."</p>
+                    <div class="person">
+                        <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors1.svg" alt="Michael Lee" />
+                        <div class="person-info">
+                            <p class="name">Michael Lee</p>
+                            <p class="role">Investor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

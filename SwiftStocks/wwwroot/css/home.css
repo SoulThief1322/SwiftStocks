@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: #2C2F33; /* Charcoal Black */
-  color: #FFFFFF; /* White */
+  background-color: #2C2F33;
+  color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
   font-size: 16px;
@@ -15,20 +15,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Container */
 .responsive-container-block {
   max-width: 1100px;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
 
-/* Hero Section */
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 85vh;
-  background-color: #23272A; /* Almost Black */
+  background-color: #23272A;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.6);
   text-align: center;
@@ -39,7 +37,7 @@ body {
   font-weight: 700;
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #7289DA; /* Cool Blue */
+  color: #7289DA;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -49,7 +47,7 @@ body {
   font-weight: 600;
   font-size: 1.25rem;
   margin-bottom: 2rem;
-  color: #B0B8C1; /* Soft Gray */
+  color: #B0B8C1; 
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -57,7 +55,7 @@ body {
 }
 
 .hero .content .cta {
-  background-color: #7289DA; /* Cool Blue */
+  background-color: #7289DA;
   border: 2px solid #7289DA;
   padding: 1rem 3rem;
   border-radius: 8px;
@@ -80,7 +78,6 @@ body {
   outline: none;
 }
 
-/* Features Section */
 .features {
   display: flex;
   justify-content: space-between;
@@ -128,7 +125,6 @@ body {
   flex-grow: 1;
 }
 
-/* Big container wrapper */
 .big-container {
   background: #23272A;
   padding: 3rem 2rem 5rem;
@@ -137,8 +133,6 @@ body {
   max-width: 1100px;
   box-shadow: 0 0 40px rgba(114, 137, 218, 0.3);
 }
-
-/* Text blocks */
 .bg {
   padding: 0 2rem;
   text-align: center;
@@ -162,7 +156,6 @@ body {
   font-style: normal;
 }
 
-/* Blocks container */
 .blocks {
   display: flex;
   justify-content: center;
@@ -170,7 +163,6 @@ body {
   gap: 2rem;
 }
 
-/* Content cards */
 .content {
   background: #2C2F33;
   border-radius: 12px;
@@ -193,13 +185,11 @@ body {
   box-shadow: 0 10px 30px rgba(114, 137, 218, 0.3);
 }
 
-/* Info block spacing */
 .info-block {
   margin-bottom: 1.8rem;
   line-height: 1.6;
 }
 
-/* Person profile */
 .person {
   display: flex;
   align-items: center;
@@ -237,7 +227,6 @@ body {
   font-style: normal;
 }
 
-/* Responsive */
 @media (max-width: 900px) {
   .features {
     flex-direction: column;
@@ -268,7 +257,6 @@ body {
     max-width: 100%;
   }
 }
-/* --- Live Market Ticker --- */
 .market-ticker {
   background: #23272A;
   border-radius: 12px;
@@ -299,17 +287,18 @@ body {
   }
 }
 
-/* --- Dashboard Preview Card --- */
 .dashboard-preview {
   background: linear-gradient(145deg, #2E3136, #292B2F);
   border-radius: 20px;
   padding: 2.5rem 3rem;
-  margin-top: 3rem;
+  margin-top: 3rem!important;
   max-width: 900px;
   box-shadow: 0 10px 40px rgba(114, 137, 218, 0.3);
   color: #D8DBE1;
   display: flex;
+  justify-content: center;
   align-items: center;
+  margin: 0 auto;
   gap: 2rem;
   user-select: none;
 }
@@ -348,7 +337,6 @@ body {
   line-height: 1.5;
 }
 
-/* --- Trust & Security Section --- */
 .trust-security {
   margin: 5rem auto 2rem;
   max-width: 1000px;
@@ -378,7 +366,6 @@ body {
   font-size: 1rem;
 }
 
-/* --- FAQ Accordion --- */
 .faq {
   max-width: 900px;
   margin: 4rem auto 5rem;
@@ -434,7 +421,6 @@ body {
   display: block;
 }
 
-/* --- Newsletter Signup --- */
 .newsletter {
   background: #23272A;
   border-radius: 16px;

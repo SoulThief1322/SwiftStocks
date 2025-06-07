@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
 button {
   border: none;
   background: none;
@@ -7,6 +8,7 @@ button {
   margin: 0;
   cursor: pointer;
 }
+
 body {
   background: #eaeef6;
   font-family: 'Open Sans', sans-serif;
@@ -21,7 +23,7 @@ body {
   padding: 1rem 2rem;
   box-sizing: border-box;
   transform: translateX(-50%);
-  background: #fff;
+  background: #ffffff;
   border-radius: 10px;
   padding: 1rem 0;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
@@ -38,7 +40,7 @@ body {
   justify-content: center;
   height: 3.5rem;
   width: 5.5rem;
-  color: #6a778e;
+  color: #344767;
   transition: 250ms ease all;
   font-size: 1.2rem;
   margin: 0 10px;
@@ -46,7 +48,7 @@ body {
 
 .navbar__link i {
   font-size: 1.5rem;
-  color: #6a778e;
+  color: #344767;
   transition: 250ms ease all;
 }
 
@@ -57,8 +59,8 @@ body {
   margin-top: 1rem;
   opacity: 0;
   pointer-events: none;
-  color: #406ff3;
-  background: #fff;
+  color: #4a90e2;
+  background: #f9fbff;
   padding: 0.75rem;
   transition: 250ms ease all;
   border-radius: 17.5px;
@@ -68,11 +70,11 @@ body {
 }
 
 .navbar__link:hover {
-  color: #fff;
+  color: #4a90e2;
 }
 
 .navbar__link:hover i {
-  color: #406ff3;
+  color: #4a90e2;
 }
 
 .navbar:not(:hover) .navbar__link:focus,
@@ -106,14 +108,16 @@ body {
 .navbar {
   height: auto;
 }
-.notVisible{
+
+.notVisible {
   display: none;
 }
+
 @media (max-width: 1024px) {
   .navbar {
     padding: 0.8rem;
-    flex-wrap: nowrap; 
-    justify-content: center
+    flex-wrap: nowrap;
+    justify-content: center;
   }
 
   .navbar__link {
@@ -155,8 +159,8 @@ body {
     margin-top: 1rem;
     opacity: 0;
     pointer-events: none;
-    color: #406ff3;
-    background: #fff;
+    color: #4a90e2;
+    background: #f9fbff;
     padding: 1rem;
     transition: 250ms ease all;
     border-radius: 17.5px;
@@ -166,17 +170,15 @@ body {
     width: auto;
     max-width: 120px;
   }
-  
+
   .navbar__link:hover span {
     opacity: 1;
-    transform: translateY(0); 
+    transform: translateY(0);
   }
 
   .navbar__link i {
     font-size: 1.3rem;
   }
-
-  
 }
 
 @media (max-width: 480px) {

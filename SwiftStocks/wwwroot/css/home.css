@@ -483,3 +483,40 @@ body {
   color: #23272A;
   outline: none;
 }
+.input-group {
+  position: relative;
+  flex: 1 1 280px;
+}
+
+.input-group input[type="email"] {
+  width: 100%;
+  padding: 1.2rem 1.2rem 0.6rem;
+  border-radius: 12px;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #23272A;
+  background-color: #fff;
+}
+
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 1.2rem;
+  transform: translateY(-50%);
+  color: #6b7280;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown):valid + label {
+  top: -1.2em;
+  font-size: 1em;
+  color: #7289DA;
+  background: inherit;
+  padding: 0 0.2rem;
+  border-radius: 20px;
+  font-style: bold;
+}

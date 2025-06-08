@@ -436,3 +436,4 @@ C:\Users\gajok\SwiftStocks\SwiftStocks\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAn
 C:\Users\gajok\SwiftStocks\SwiftStocks\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\krmj1o2dh4-lglvl7bhlk.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\a2yec02how-kuub780djt.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

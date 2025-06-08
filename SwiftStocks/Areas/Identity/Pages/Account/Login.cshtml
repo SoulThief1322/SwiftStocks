@@ -1,0 +1,51 @@
+﻿@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+<link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+
+<div class="auth-wrapper">
+    <div class="login-wrapper">
+        <div class="form-header-container">
+            <h1 class="form-header">Login</h1>
+        </div>
+
+        
+
+        <form method="post" class="form login">
+            <div class="form-group @(Model.Input?.Email != null ? "filled" : "")">
+                <input asp-for="Input.Email" class="form-input" placeholder=" " required />
+                <label asp-for="Input.Email">Email</label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group @(Model.Input?.Password != null ? "filled" : "")">
+                <input asp-for="Input.Password" class="form-input" placeholder=" " required />
+                <label asp-for="Input.Password">Password</label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="login-button">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+
+        <div class="forgot-password">
+            <p>
+                Forgot your password? <a asp-page="./ForgotPassword">Reset it</a>
+            </p>
+            <p>
+                Don't have an account? <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register here</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="register-wrapper">
+        <h2>New to SwiftStocks?</h2>
+        <p>Track your portfolio, analyze markets, and make smarter trades with us.</p>
+        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register</a>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

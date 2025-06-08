@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SwiftStocks.bundle.scp.css",
-      "PackagePath": "staticwebassets\\SwiftStocks.d9ro0wkzab.bundle.scp.css"
+      "PackagePath": "staticwebassets\\SwiftStocks.b6wobulbhz.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\footer.css",
@@ -23,6 +23,10 @@
     {
       "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\imgs\\chart.png",
+      "PackagePath": "staticwebassets\\imgs\\chart.png"
     },
     {
       "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\home.js",

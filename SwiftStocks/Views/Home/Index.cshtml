@@ -17,7 +17,17 @@
         <div class="content">
             <h1>Welcome to SwiftStocks</h1>
             <p>Trade smarter with real-time insights and cutting-edge tools</p>
-            <button class="cta">Start Trading</button>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <p class="welcome-message">Hello, @User.Identity.Name!</p>
+                <a href="/Stocks" class="cta">Start Trading</a>
+            }
+            else
+            {
+                <p class="welcome-message">Join us today and start trading with confidence!</p>
+                <a href="/Identity/Account/Register" class="cta">Start Trading</a>
+            }
+
         </div>
     </section>
 
@@ -49,7 +59,6 @@
     <!-- Dashboard Preview -->
     <section class="dashboard-preview" aria-label="Trading dashboard preview">
         <div class="chart-placeholder">
-            Chart Preview
         </div>
         <div class="text">
             <h2>Powerful Trading Dashboard</h2>

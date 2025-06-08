@@ -27,9 +27,14 @@
                     <i class="fas fa-chart-pie"></i><span>Owned</span>
                 </a>
 
+                @{
+                    var currentUrl = Context.Request.Path + Context.Request.QueryString;
+                }
+
                 @if (User.Identity.IsAuthenticated)
                 {
                     <form id="logoutForm" asp-area="Identity" asp-page="/Account/Logout" method="post" class="d-inline">
+                        <input type="hidden" name="returnUrl" value="@currentUrl" />
                         <button type="submit" class="navbar__link">
                             <i class="fas fa-sign-out-alt"></i><span>Logout</span>
                         </button>
@@ -87,9 +92,9 @@
       <h4>Site Map</h4>
       <a asp-page="/Index">Home</a>
       <a asp-page="/About">About Us</a>
-      <a asp-page="/Contact">Contact</a>
+      <a asp-controller="Home" asp-action="Contacts">Contact</a>
       <a asp-page="/Features">Features</a>
-      <a asp-page="/Privacy">Privacy Policy</a>
+      <a asp-controller="Home" asp-action="Privacy">Privacy Policy</a>
     </div>
   </div>
 

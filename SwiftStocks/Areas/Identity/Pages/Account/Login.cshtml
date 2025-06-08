@@ -45,7 +45,25 @@
         <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register</a>
     </div>
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const inputs = document.querySelectorAll('.form-input');
 
+    inputs.forEach(input => {
+      if (input.value.trim() !== '') {
+        input.parentElement.classList.add('filled');
+      }
+
+      input.addEventListener('input', () => {
+        if (input.value.trim() !== '') {
+          input.parentElement.classList.add('filled');
+        } else {
+          input.parentElement.classList.remove('filled');
+        }
+      });
+    });
+  });
+</script>
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }

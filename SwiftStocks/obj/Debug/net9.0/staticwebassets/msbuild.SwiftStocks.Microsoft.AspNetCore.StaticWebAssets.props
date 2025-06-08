@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>k7cvepf30j</Fingerprint>
-      <Integrity>cC7AzHFpyz2gfaUwIvnp6QwUymMCYdq02ANj2d4CgGA=</Integrity>
+      <Fingerprint>kuub780djt</Fingerprint>
+      <Integrity>FMiuLwoPJHPhI0X3w8/SDdVUuwiHFfUdQZJ+eh+Mai4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\footer.css'))</OriginalItemSpec>

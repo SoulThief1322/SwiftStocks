@@ -11,16 +11,15 @@ body > *:not(.footer) {
 }
 
 .footer {
-  background-color: #23272A;
-  color: #FFFFFF;
+  background-color: #252932;
+  color: #E1E6EB;
   padding: 40px 20px 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   box-sizing: border-box;
   flex-shrink: 0;
+  position: relative;
 }
-
-
 
 a {
   text-decoration: none;
@@ -32,7 +31,7 @@ a {
 .footer-section a:focus,
 .footer-section a:active,
 .footer-section a.active {
-  color: #99AAB5 !important;
+  color: #B4B8C5 !important;
   font-weight: 500;
   transition: color 0.3s ease;
   text-decoration: none;
@@ -41,21 +40,9 @@ a {
 
 .footer-section a:hover,
 .footer-section a:focus {
-  color: #7289DA !important;
+  color: #9C9EFF !important;
   text-decoration: none;
   outline: none;
-}
-
-
-
-.footer {
-  background-color: #23272A;
-  color: #FFFFFF;
-  padding: 40px 20px 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  width: 100%;
-  position: absolute;
-  box-sizing: border-box;
 }
 
 .footer-container {
@@ -70,7 +57,7 @@ a {
   display: flex;
   flex-direction: column;
   padding-left: 20px;
-  border-left: 1px solid rgba(153, 170, 181, 0.2);
+  border-left: 1px solid rgba(156, 158, 255, 0.10);
 }
 
 .footer-section:first-child {
@@ -79,7 +66,7 @@ a {
 }
 
 .footer-section h4 {
-  color: #7289DA;
+  color: #9C9EFF;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 1.1rem;
@@ -94,14 +81,14 @@ a {
 .logo-box {
   width: 40px;
   height: 40px;
-  background-color: #7289DA;
+  background-color: #9C9EFF;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 5px;
-  box-shadow: 0 0 10px rgba(114, 137, 218, 0.5);
+  box-shadow: 0 0 10px rgba(156, 158, 255, 0.25);
 }
 
 .logo-image {
@@ -112,7 +99,7 @@ a {
 
 .site-name {
   font-weight: bold;
-  color: #FFFFFF;
+  color: #E1E6EB;
   font-size: 1.4em;
   margin-bottom: 10px;
 }
@@ -123,13 +110,13 @@ a {
 }
 
 .social-icons i {
-  color: #99AAB5;
+  color: #B4B8C5;
   font-size: 28px;
   transition: color 0.3s ease;
 }
 
 .social-icons i:hover {
-  color: #7289DA;
+  color: #9C9EFF;
 }
 
 .footer-bottom {
@@ -138,23 +125,23 @@ a {
   padding-top: 15px;
   font-size: 14px;
   text-align: center;
-  color: #99AAB5;
+  color: #B4B8C5;
 }
 
 .footer-bottom a {
-  color: #99AAB5;
+  color: #B4B8C5;
   transition: color 0.3s ease;
   text-decoration: none;
 }
 
 .footer-bottom a:hover {
-  color: #7289DA;
+  color: #9C9EFF;
   text-decoration: none;
 }
 
 @media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        gap: 20px;
-    }
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+  }
 }

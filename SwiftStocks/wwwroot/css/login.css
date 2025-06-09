@@ -21,7 +21,7 @@
 .form-header {
   font-size: 2rem;
   font-weight: bold;
-  color: #58A6FF;
+  color: #7289DA;
 }
 
 .login-option-text {
@@ -48,7 +48,7 @@
   font-size: 1.75rem;
   background: transparent;
   border: none;
-  color: #58A6FF;
+  color: #7289DA;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
 }
@@ -128,7 +128,7 @@
   top: 0;
   transform: translateY(-120%);
   font-size: 0.85rem;
-  color: #58A6FF;
+  color: #7289DA;
   font-weight: 600;
   background-color: inherit;
 }
@@ -163,7 +163,7 @@
 }
 
 .forgot-password a {
-  color: #58A6FF;
+  color: #7289DA;
   text-decoration: none;
   font-weight: bold;
 }
@@ -185,7 +185,7 @@
 
 .register-wrapper h2 {
   font-size: 1.8rem;
-  color: #58A6FF;
+  color: #7289DA;
   margin-bottom: 1rem;
 }
 
@@ -196,7 +196,7 @@
 }
 
 .register-wrapper a {
-  background: #58A6FF;
+  background: #7289DA;
   color: #0D1117;
   font-weight: bold;
   text-decoration: none;
@@ -211,15 +211,135 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 900px) {
   .auth-wrapper {
     flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  .login-button {
+    width: 100%;
+  }
+  .login-wrapper {
+    width: 90%;
+    max-width: 400px;
+    margin-top: 0rem!important;
+    margin-bottom: 1rem;
+    box-shadow: none;
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+  }
+  .form-header-container{
+    margin-top: 2rem!important;
+  }
+  .register-wrapper {
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 15rem;
+    box-shadow: none;
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .form-group {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .form-header,
+  .register-wrapper h2 {
+    font-size: 1.8rem;
+  }
+
+  .register-wrapper p,
+  .forgot-password p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 500px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .auth-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
   }
 
   .login-wrapper,
   .register-wrapper {
-    flex-basis: auto;
+    width: 95%;
+    max-width: 400px;
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+  .form-input {
     width: 100%;
-    padding: 2rem;
+    max-width: 100%;
+  }
+
+  .login-button {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .login-button button {
+    width: 100%;
+  }
+
+  .button-options {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .login-option {
+    width: 100%;
   }
 }
+@media (max-width: 400px) {
+  .form-group{
+    width: 100%;
+    max-width: 300px;
+  }
+}
+

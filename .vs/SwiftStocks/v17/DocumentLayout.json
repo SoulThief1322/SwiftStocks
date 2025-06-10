@@ -1,25 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gajok\\SwiftStocks\\",
+  "WorkspaceRootPath": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\data\\models\\boughtstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\data\\models\\boughtstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\data\\models\\watchlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\data\\models\\watchlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\data\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\data\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\data\\models\\watchliststock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\data\\models\\watchliststock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\data\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\data\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\configuration\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\configuration\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\configuration\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -33,89 +57,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SwiftStocks\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SwiftStocks\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIA6wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:43:55.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Data\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "SwiftStocks\\Data\\Models\\Stock.cs",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Data\\Models\\Stock.cs",
+              "RelativeToolTip": "SwiftStocks\\Data\\Models\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:46:28.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WatchlistStock.cs",
+              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Data\\Models\\WatchlistStock.cs",
+              "RelativeDocumentMoniker": "SwiftStocks\\Data\\Models\\WatchlistStock.cs",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Data\\Models\\WatchlistStock.cs",
+              "RelativeToolTip": "SwiftStocks\\Data\\Models\\WatchlistStock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:43:51.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Watchlist.cs",
+              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Data\\Models\\Watchlist.cs",
+              "RelativeDocumentMoniker": "SwiftStocks\\Data\\Models\\Watchlist.cs",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Data\\Models\\Watchlist.cs",
+              "RelativeToolTip": "SwiftStocks\\Data\\Models\\Watchlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:43:19.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "News.cs",
+              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Data\\Models\\News.cs",
+              "RelativeDocumentMoniker": "SwiftStocks\\Data\\Models\\News.cs",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Data\\Models\\News.cs",
+              "RelativeToolTip": "SwiftStocks\\Data\\Models\\News.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA2wB0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:35:58.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BoughtStock.cs",
+              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Data\\Models\\BoughtStock.cs",
+              "RelativeDocumentMoniker": "SwiftStocks\\Data\\Models\\BoughtStock.cs",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Data\\Models\\BoughtStock.cs",
+              "RelativeToolTip": "SwiftStocks\\Data\\Models\\BoughtStock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:35:47.336Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "EmailSettings.cs",
-              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\Configuration\\EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Configuration\\EmailSettings.cs",
               "RelativeDocumentMoniker": "SwiftStocks\\Configuration\\EmailSettings.cs",
-              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\Configuration\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Configuration\\EmailSettings.cs",
               "RelativeToolTip": "SwiftStocks\\Configuration\\EmailSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T15:31:43.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T15:31:43.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "EmailSender.cs",
-              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\Services\\EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Services\\EmailSender.cs",
               "RelativeDocumentMoniker": "SwiftStocks\\Services\\EmailSender.cs",
-              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\Services\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Services\\EmailSender.cs",
               "RelativeToolTip": "SwiftStocks\\Services\\EmailSender.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T15:23:10.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T15:23:10.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Program.cs",
               "RelativeDocumentMoniker": "SwiftStocks\\Program.cs",
-              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\Program.cs",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Program.cs",
               "RelativeToolTip": "SwiftStocks\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T15:20:30.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T15:20:30.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "SwiftStocks\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "SwiftStocks\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAUwGQAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T15:19:31.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAMsUAAAAAAAAAAAhwPMUAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-06-08T15:16:20.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T15:16:20.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\appsettings.json",
               "RelativeDocumentMoniker": "SwiftStocks\\appsettings.json",
-              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\appsettings.json",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\appsettings.json",
               "RelativeToolTip": "SwiftStocks\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-17T11:46:17.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T11:46:17.485Z"
             }
           ]
         }

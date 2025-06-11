@@ -30,8 +30,6 @@ namespace SwiftStocks.Data.Models
         public IdentityUser Author { get; set; }
         [Required]
         public bool IsDeleted { get; set; } = NewsConstants.DefaultIsDeleted;
-        [Required]
-        public decimal Rating { get; set; } = NewsConstants.DefaultRating;
 
     }
 }

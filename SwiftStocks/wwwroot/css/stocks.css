@@ -1,0 +1,390 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1C1F26;
+    color: #E1E6EB;
+}
+
+.top-bar {
+    background-color: #252932;
+    padding: 16px 24px;
+    border-radius: 12px;
+    margin: 100px auto 32px!important;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.top-bar nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar nav ul li {
+    color: #B4B8C5;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all 0.2s ease;
+    padding: 6px 8px;
+    border-radius: 6px;
+}
+
+.top-bar nav ul li:hover {
+    color: #E1E6EB;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.top-bar nav ul li.active {
+    color: #FFD580;
+    border-bottom: 2px solid #FFD580;
+    padding-bottom: 6px;
+}
+
+/* Layout */
+.layout {
+    display: flex;
+    max-width: 1200px;
+    margin: 10px auto;
+    background-color: #1C1F26;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 280px;
+    background-color: #252932;
+    padding: 20px;
+    overflow-y: auto;
+    border-right: 1px solid #2f3542;
+}
+
+.stock-entry {
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    background-color: #1F232B;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.stock-entry:hover {
+    background-color: #2B2F38;
+}
+
+.stock-entry.selected {
+    background-color: #333844;
+    border-left: 4px solid #9C9EFF;
+    padding-left: 11px;
+}
+
+.stock-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #E1E6EB;
+}
+
+.stock-price {
+    font-size: 14px;
+    color: #B4B8C5;
+}
+
+.stock-change {
+    font-size: 13px;
+}
+
+.stock-change.up {
+    color: #00d67f;
+}
+
+.stock-change.down {
+    color: #ff4d4f;
+}
+
+/* Main content */
+.main-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #1C1F26;
+}
+
+.stock-panel {
+    background-color: #252932;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 150px;
+    max-width: 500px;
+    max-height: 420px;
+    position: relative;
+    overflow: hidden;
+}
+
+.stock-header {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.stock-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #E1E6EB;
+    margin-bottom: 10px;
+}
+
+.price-box {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.price-box .sell, .price-box .buy {
+    display: inline-block;
+    width: 110px;
+    margin-right: 15px;
+    background-color: #1F232B;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #E1E6EB;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.price-box .sell span,
+.price-box .buy span {
+    display: block;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.price-box .sell {
+    border-left: 4px solid #ff4d4f;
+}
+
+.price-box .buy {
+    border-left: 4px solid #00d67f;
+}
+
+.monthly-change {
+    font-size: 13px;
+    color: #ff4d4f;
+    font-weight: 500;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+.chart-placeholder {
+    height: 200px;
+    width: 460px;
+    background-color: #1F232B;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #B4B8C5;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+}
+
+.range-selector {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 460px;
+    text-align: center;
+}
+
+.range-selector button {
+    background-color: #1C1F26;
+    color: #B4B8C5;
+    border: 1px solid #3a3f4b;
+    border-radius: 8px;
+    padding: 6px 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin: 0 6px;
+}
+
+.range-selector button:hover {
+    border-color: #9C9EFF;
+    color: #9C9EFF;
+}
+
+.range-selector .active {
+    background-color: #9C9EFF;
+    color: #fff;
+}
+
+.feed {
+    background-color: #252932;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.feed-item {
+    margin-bottom: 12px;
+    color: #B4B8C5;
+}
+
+.feed-item strong {
+    color: #FFD580;
+}
+@media (max-width: 992px) {
+  .layout {
+    margin: 24px auto;
+    max-width: 95%;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #2f3542;
+    display: flex;
+    overflow-x: auto;
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .stock-entry {
+    min-width: 220px;
+    flex: 0 0 auto;
+  }
+
+  .main-panel {
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  .top-bar {
+    margin: 24px auto;
+    padding: 12px 20px;
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-bar nav ul {
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 16px;
+    scrollbar-width: none;
+  }
+
+  .top-bar nav ul::-webkit-scrollbar {
+    display: none;
+  }
+
+  .stock-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .price-box {
+    justify-content: center;
+  }
+
+  .chart-placeholder {
+    height: 240px;
+  }
+
+  .feed {
+    padding: 12px;
+  }
+
+  .main-panel {
+    padding: 14px;
+  }
+}
+
+@media (max-width: 580px) {
+  html {
+    font-size: 15px;
+  }
+
+  .top-bar {
+    margin: 16px 8px;
+    padding: 10px 14px;
+    border-radius: 10px;
+  }
+
+  .top-bar,
+  .layout {
+    box-shadow: none;
+  }
+
+  .stock-entry {
+    padding: 12px;
+    margin-bottom: 8px;
+    min-width: 180px;
+  }
+
+  .range-selector {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .range-selector button {
+    flex: 1 1 70px;
+    padding: 6px 10px;
+  }
+
+  .main-panel {
+    padding: 12px;
+  }
+  .main-panel .stock-panel {
+    width: 90%;
+
+  }
+}
+
+@media (max-width: 420px) {
+  .stock-panel {
+    padding: 14px;
+  }
+
+  .feed-item {
+    font-size: 0.9rem;
+  }
+
+  .main-panel {
+    padding: 10px;
+  }
+  .stock-panel {
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+    .monthly-change{
+     margin-top: 60px;
+    }
+  }
+  .sell, .buy {
+    width: 100px;
+    padding: 6px 10px;
+  }
+}
+

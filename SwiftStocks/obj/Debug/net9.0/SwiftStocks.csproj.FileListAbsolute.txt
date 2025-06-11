@@ -791,7 +791,6 @@ C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\a
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
-C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\lz6sr2yeti-x14hviovar.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\jldod95xoq-i5j5vm1i18.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\wyvlxd0jg7-b9sayid5wm.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\eocjh0xonj-61n19gt1b8.gz
@@ -875,3 +874,6 @@ C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\SwiftStocks.
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\ref\SwiftStocks.dll
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\a2yec02how-didopzjfso.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\krmj1o2dh4-rw8711dn13.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\lz6sr2yeti-6hgh5jpv5w.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\g4l4sexlm7-qfqwajho8y.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\eevnv1ezsc-4icnlmp5pi.gz

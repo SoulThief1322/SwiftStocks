@@ -1,121 +1,54 @@
 
-<style>
-    body {
-        background-color: #1C1F26;
-        color: #FFFFFF;
-        font-family: Arial, sans-serif;
-    }
-    .section-header {
-        color: #FFD580;
-        font-size: 1.5rem;
-        margin-top: 2rem;
-    }
-    .stock-card, .chart-container, .news-card, .calendar-card {
-        background-color: #252932;
-        border-radius: 1rem;
-        padding: 1rem;
-        margin-bottom: 1rem;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-    }
-    .stock-ticker {
-        display: flex;
-        overflow-x: auto;
-        white-space: nowrap;
-        gap: 1rem;
-        padding: 1rem;
-        background-color: #2C3038;
-        border-radius: 1rem;
-    }
-    .ticker-item {
-        color: #FFD580;
-        min-width: 150px;
-    }
-    .green { color: #90EE90; }
-    .red { color: #FF7F7F; }
-    .watchlist, .top-movers, .sentiment, .portfolio {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 1rem;
-    }
-</style>
 
-<h1>Stocks Dashboard</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Stocks</title>
+    <link rel="stylesheet" href="~/css/stocks.css" />
+</head>
+<body>
+    <div class="top-bar">
+        <nav>
+            <ul>
+                <li>News</li>
+                <li>My watchlist</li>
+                <li>Commodities</li>
+                <li>Stocks</li>
+                <li>Indices</li>
+                <li>Forex</li>
+                <li>Most traded</li>
+                <li class="active">Top movers</li>
+                <li>New on T212</li>
+            </ul>
+        </nav>
+    </div>
 
-<!-- Market Summary -->
-<div class="section-header">Market Summary</div>
-<div class="stock-card">
-    <p>Dow Jones: <span class="green">+0.87%</span> | NASDAQ: <span class="red">-0.56%</span> | S&P 500: <span class="green">+1.12%</span></p>
-    <p>Gold: $1920 | Crude Oil: $85.2 | EUR/USD: 1.085</p>
-</div>
+    <div class="layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            
+        </aside>
 
-<!-- Stock Ticker -->
-<div class="section-header">Live Ticker</div>
-<div class="stock-ticker">
-    <div class="ticker-item">AAPL $175.43 <span class="green">+1.32%</span></div>
-    <div class="ticker-item">TSLA $238.76 <span class="red">-2.14%</span></div>
-    <div class="ticker-item">GOOG $123.56 <span class="green">+0.45%</span></div>
-    <div class="ticker-item">MSFT $313.21 <span class="green">+0.23%</span></div>
-</div>
-
-<!-- Search + Watchlist -->
-<div class="section-header">Watchlist</div>
-<input type="text" class="form-control mb-3" placeholder="Search for a stock..." />
-<div class="watchlist">
-    <div class="stock-card">AAPL - Apple Inc. - $175.43 <span class="green">+1.32%</span></div>
-    <div class="stock-card">TSLA - Tesla Inc. - $238.76 <span class="red">-2.14%</span></div>
-</div>
-
-<!-- Chart Area -->
-<div class="section-header">Stock Chart (Static)</div>
-<div class="chart-container">
-    <img src="/images/sample-chart.png" alt="Static chart" style="width:100%; border-radius:0.5rem;" />
-</div>
-
-<!-- Details -->
-<div class="section-header">Stock Details</div>
-<div class="stock-card">
-    <p><strong>Apple Inc. (AAPL)</strong></p>
-    <p>Price: $175.43 | Day High: $176 | Low: $172.5</p>
-    <p>52W High: $195 | Low: $124 | PE Ratio: 28.3</p>
-    <p>Dividend Yield: 0.58% | EPS: 6.11</p>
-</div>
-
-<!-- News Feed -->
-<div class="section-header">Latest News</div>
-<div class="news-card">
-    <ul>
-        <li><a href="#">Apple to unveil new product lineup next week</a></li>
-        <li><a href="#">Tesla sees decline in Q2 deliveries</a></li>
-    </ul>
-</div>
-
-<!-- Calendar -->
-<div class="section-header">Economic Calendar</div>
-<div class="calendar-card">
-    <ul>
-        <li>Jun 10: CPI Inflation Report</li>
-        <li>Jun 14: Fed Interest Rate Decision</li>
-    </ul>
-</div>
-
-<!-- Top Movers -->
-<div class="section-header">Top Movers</div>
-<div class="top-movers">
-    <div class="stock-card">Top Gainer: NVDA +5.32%</div>
-    <div class="stock-card">Top Loser: AMZN -3.67%</div>
-    <div class="stock-card">Most Active: AMD $110.45</div>
-</div>
-
-<!-- Sentiment -->
-<div class="section-header">Market Sentiment</div>
-<div class="sentiment">
-    <div class="stock-card">Sentiment: <strong>Bullish</strong></div>
-    <div class="stock-card">Reddit Buzz: TSLA, GME</div>
-</div>
-
-<!-- Portfolio -->
-<div class="section-header">Simulated Portfolio</div>
-<div class="portfolio">
-    <div class="stock-card">Holding: 5x AAPL $160 - Profit: <span class="green">+$77.15</span></div>
-    <div class="stock-card">Holding: 2x TSLA $250 - Loss: <span class="red">-$22.48</span></div>
-</div>
+        <!-- Main Panel -->
+        <main class="main-panel">
+            <div class="stock-panel">
+                
+                </div>
+                
+            </div>
+            <div class="feed">
+                <div class="feed-item">
+                    <strong>Toptrader25</strong> - 3mo<br />
+                    <span>Slight uptrend</span>
+                </div>
+                <div class="feed-item">
+                    <strong>Toptrader25</strong> - 7mo<br />
+                    <span>Holding long</span>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="~/js/stocks.js"></script>
+</body>
+</html>

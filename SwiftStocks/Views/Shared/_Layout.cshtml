@@ -23,9 +23,7 @@
                 <a class="navbar__link" asp-area="" asp-controller="Stocks" asp-action="Index">
                     <i class="fas fa-chart-line"></i><span>Stocks</span>
                 </a>
-                <a class="navbar__link" asp-area="" asp-controller="Owned" asp-action="Index">
-                    <i class="fas fa-chart-pie"></i><span>Owned</span>
-                </a>
+                
 
                 @{
                     var currentUrl = Context.Request.Path + Context.Request.QueryString;
@@ -33,6 +31,9 @@
 
                 @if (User.Identity.IsAuthenticated)
                 {
+                    <a class="navbar__link" asp-area="" asp-controller="Owned" asp-action="Index">
+                        <i class="fas fa-chart-pie"></i><span>Owned</span>
+                    </a>
                     <form id="logoutForm" asp-area="Identity" asp-page="/Account/Logout" method="post" class="d-inline">
                         <input type="hidden" name="returnUrl" value="@currentUrl" />
                         <button type="submit" class="navbar__link">

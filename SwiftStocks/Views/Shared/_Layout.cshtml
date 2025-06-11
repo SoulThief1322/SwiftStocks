@@ -1,48 +1,111 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - SwiftStocks</title>
-    <script type="importmap"></script>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="stylesheet" href="~/SwiftStocks.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/navbar.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SwiftStocks</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                    <partial name="_LoginPartial" />
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="page-wrapper">
+
+        <header>
+            <nav class="navbar">
+                <a class="navbar__link" asp-area="" asp-controller="Home" asp-action="Index">
+                    <i class="fas fa-home"></i><span>Home</span>
+                </a>
+                <a class="navbar__link" asp-area="" asp-controller="Stocks" asp-action="Index">
+                    <i class="fas fa-chart-line"></i><span>Stocks</span>
+                </a>
+                
+
+                @{
+                    var currentUrl = Context.Request.Path + Context.Request.QueryString;
+                }
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a class="navbar__link" asp-area="" asp-controller="Owned" asp-action="Index">
+                        <i class="fas fa-chart-pie"></i><span>Owned</span>
+                    </a>
+                    <form id="logoutForm" asp-area="Identity" asp-page="/Account/Logout" method="post" class="d-inline">
+                        <input type="hidden" name="returnUrl" value="@currentUrl" />
+                        <button type="submit" class="navbar__link">
+                            <i class="fas fa-sign-out-alt"></i><span>Logout</span>
+                        </button>
+                    </form>
+                }
+                else
+                {
+                    <a class="navbar__link" asp-area="Identity" asp-page="/Account/Login">
+                        <i class="fas fa-sign-in-alt"></i><span>Login</span>
+                    </a>
+                }
+            </nav>
+        </header>
+
+        <main role="main" class="main-content container mt-5 pt-5 pb-3">
             @RenderBody()
         </main>
+
+        <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section logo-section">
+      <div class="logo-box">
+        <img src="~/logo.jpg" alt="SwiftStocks Logo" class="logo-image" />
+      </div>
+      <div class="site-name">SwiftStocks</div>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/yourpage" target="_blank" rel="noreferrer">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/yourcompany" target="_blank" rel="noreferrer">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noreferrer">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - SwiftStocks - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+    <div class="footer-section">
+      <h4>App & Resources</h4>
+      <a asp-page="/Index">Home</a>
+      <a asp-page="/Features">Features</a>
+      <a asp-page="/Pricing">Pricing</a>
+      <a asp-page="/Privacy">Privacy Policy</a>
+    </div>
+
+    <div class="footer-section">
+      <h4>Useful Links</h4>
+      <a href="https://www.investopedia.com/" target="_blank" rel="noreferrer">Investopedia</a>
+      <a href="https://www.nasdaq.com/" target="_blank" rel="noreferrer">NASDAQ</a>
+      <a href="https://www.sec.gov/" target="_blank" rel="noreferrer">SEC Website</a>
+    </div>
+
+    <div class="footer-section">
+      <h4>Site Map</h4>
+      <a asp-page="/Index">Home</a>
+      <a asp-page="/About">About Us</a>
+      <a asp-controller="Home" asp-action="Contacts">Contact</a>
+      <a asp-page="/Features">Features</a>
+      <a asp-controller="Home" asp-action="Privacy">Privacy Policy</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    &copy; 2025 SwiftStocks. All rights reserved.
+  </div>
+</footer>
+
+    </div> 
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

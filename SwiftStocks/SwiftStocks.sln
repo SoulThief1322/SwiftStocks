@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwiftStocks", "SwiftStocks.csproj", "{34002AC2-4F09-8B70-26E9-DFEAB4C24D8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34002AC2-4F09-8B70-26E9-DFEAB4C24D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34002AC2-4F09-8B70-26E9-DFEAB4C24D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34002AC2-4F09-8B70-26E9-DFEAB4C24D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34002AC2-4F09-8B70-26E9-DFEAB4C24D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DED3BFB8-B088-4F66-BD3E-5344C720E74F}
+	EndGlobalSection
+EndGlobal

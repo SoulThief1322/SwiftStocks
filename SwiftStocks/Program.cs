@@ -1,21 +1,32 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using SwiftStocks.Data;
+using SwiftStocks.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlite(connectionString));
+    options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddEntityFrameworkStores<ApplicationDbContext>(); 
 builder.Services.AddControllersWithViews();
 
-var app = builder.Build();
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.SignIn.RequireConfirmedAccount = true;
+});
 
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddTransient<IEmailSender, EmailSender>();
+
+
+
+var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

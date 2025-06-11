@@ -1,0 +1,190 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body > *:not(.footer) {
+  flex: 1 0 auto;
+}
+
+.footer {
+  background-color: #252932;
+  color: #E1E6EB;
+  padding: 40px 20px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-section a,
+.footer-section a:visited,
+.footer-section a:hover,
+.footer-section a:focus,
+.footer-section a:active,
+.footer-section a.active {
+  color: #B4B8C5 !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  outline: none;
+}
+
+.footer-section a:hover,
+.footer-section a:focus {
+  color: #9C9EFF !important;
+  text-decoration: none;
+  outline: none;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-section {
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  border-left: 1px solid rgba(156, 158, 255, 0.10);
+}
+
+.footer-section:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
+.footer-section h4 {
+  color: #9C9EFF;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo-box {
+  width: 40px;
+  height: 40px;
+  background-color: #9C9EFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  box-shadow: 0 0 10px rgba(156, 158, 255, 0.25);
+}
+
+.logo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.site-name {
+  font-weight: bold;
+  color: #E1E6EB;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons i {
+  color: #B4B8C5;
+  font-size: 28px;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #9C9EFF;
+}
+
+.footer-bottom {
+  border-top: 1px solid #3A3F47;
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #B4B8C5;
+}
+
+.footer-bottom a {
+  color: #B4B8C5;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #9C9EFF;
+  text-decoration: none;
+}
+@media (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-section {
+    min-width: auto;
+    padding-left: 0;
+    border-left: none;
+    align-items: flex-start;
+  }
+
+  .logo-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo-box {
+    margin: 0 auto 10px auto;
+    box-shadow: 0 0 10px rgba(156, 158, 255, 0.3);
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    padding: 30px 15px 15px;
+  }
+
+  .footer-section h4 {
+    font-size: 1rem;
+  }
+
+  .site-name {
+    font-size: 1.2em;
+  }
+
+  .social-icons i {
+    font-size: 24px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+}

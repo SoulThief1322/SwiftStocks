@@ -22,9 +22,9 @@ body > *:not(.footer) {
   width: 100%;
   box-sizing: border-box;
   flex-shrink: 0;
-  position: static; /* Remove absolute positioning */
+  position: static;
   bottom: unset;
-  margin-top: auto; /* Push footer to bottom */
+  margin-top: auto;
 }
 
 a {

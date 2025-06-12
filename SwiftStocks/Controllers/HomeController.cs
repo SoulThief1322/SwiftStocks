@@ -12,17 +12,20 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
         return View();
     }
 
-    public IActionResult Privacy()
+    public async Task<IActionResult> Privacy()
     {
         return View();
     }
-    public IActionResult Contacts()
+    public async Task<IActionResult> Contacts()
+    {
+        return View();
+    }
+    public async Task<IActionResult> About()
     {
         return View();
     }

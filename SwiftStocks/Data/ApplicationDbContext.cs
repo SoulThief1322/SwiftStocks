@@ -17,6 +17,7 @@ namespace SwiftStocks.Data
         public DbSet<Stock> Stocks { get; set; }
         public DbSet<News> NewsItems { get; set; }
         public DbSet<BoughtStock> BoughtStocks { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace SwiftStocks.Data.Models
 {
     public class ContactLetter

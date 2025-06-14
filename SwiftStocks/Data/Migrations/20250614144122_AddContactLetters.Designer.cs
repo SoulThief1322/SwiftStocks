@@ -12,8 +12,8 @@ using SwiftStocks.Data;
 namespace SwiftStocks.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250612151044_RatingsAdded")]
-    partial class RatingsAdded
+    [Migration("20250614144122_AddContactLetters")]
+    partial class AddContactLetters
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -260,6 +260,41 @@ namespace SwiftStocks.Data.Migrations
                         .HasDatabaseName("IX_User_StockSymbol");
 
                     b.ToTable("BoughtStocks");
+                });
+
+            modelBuilder.Entity("SwiftStocks.Data.Models.ContactLetter", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("IsRead")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SenderEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SenderName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("SentDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ContactLetters");
                 });
 
             modelBuilder.Entity("SwiftStocks.Data.Models.News", b =>

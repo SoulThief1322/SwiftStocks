@@ -1,0 +1,50 @@
+@model SwiftStocks.Models.OwnedViewModel
+<div class="dashboard-container">
+    <div class="value-section">
+        <div class="value-label">Value</div>
+        <div class="value-amount">BGN <span>@Model.TotalValue</span></div>
+        <div class="margin-bar">
+            <span>Margin health - 50%</span>
+        </div>
+    </div>
+    <div class="cards-container">
+        <div class="trade-card">
+            <div class="card-text">
+                <p>Trade over 9,000 stocks, long and short</p>
+                <button class="cta-button" onclick="window.location.href='/Stocks'">Browse stocks</button>
+            </div>
+            <div class="card-icon">📈</div>
+        </div>
+
+        @foreach (var stock in Model.OwnedStocks)
+        {
+            <div class="trade-card owned-stock-card">
+                <div class="card-text">
+                    <p>@stock.StockName - @stock.Quantity shares</p>
+                    <button class="cta-button">Trade</button>
+                </div>
+                <div class="card-icon">📈</div>
+            </div>
+        }
+
+        <div class="card-icon">🌍</div>
+    </div>
+
+    <div class="trade-card">
+        <div class="card-text">
+            <p>Trade commodities like precious metals, oil, lumber, cattle and more</p>
+            <button class="cta-button">Browse commodities</button>
+        </div>
+        <div class="card-icon">🛢️</div>
+    </div>
+
+    <div class="trade-card">
+        <div class="card-text">
+            <p>Trade forex - over 180 pairs available 24/5</p>
+            <button class="cta-button">Browse forex</button>
+        </div>
+        <div class="card-icon">💱</div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="~/css/Owned.css" />

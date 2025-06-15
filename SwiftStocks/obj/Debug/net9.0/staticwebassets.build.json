@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Drdw35w6X8JJtwguaqVya4KpnsNPUTL/AWJ3Z/axEAI=",
+  "Hash": "/fNgV+Qd2FWwEqIiGBYdDaheAobWGJDlZj09Vb5YLMg=",
   "Source": "SwiftStocks",
   "BasePath": "_content/SwiftStocks",
   "Mode": "Default",
@@ -2096,6 +2096,27 @@
       "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\cxhs75om00-1nl8rxn2b0.gz",
+      "SourceId": "SwiftStocks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SwiftStocks",
+      "RelativePath": "css/owned#[.{fingerprint=1nl8rxn2b0}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\owned.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "u8u1r7sis8",
+      "Integrity": "ovn9dnUhN7/IbQC93Sco2mr65l2AyekRmuTZrsUn3Cs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\owned.css"
+    },
+    {
       "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\cynp17w084-c2oey78nd0.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -2201,12 +2222,12 @@
       "OriginalItemSpec": "C:\\Users\\gajok\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\eevnv1ezsc-4icnlmp5pi.gz",
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\eevnv1ezsc-lfnhag98vo.gz",
       "SourceId": "SwiftStocks",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SwiftStocks",
-      "RelativePath": "js/stocks#[.{fingerprint=4icnlmp5pi}]?.js.gz",
+      "RelativePath": "js/stocks#[.{fingerprint=lfnhag98vo}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2215,8 +2236,8 @@
       "RelatedAsset": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\stocks.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5npi1epply",
-      "Integrity": "UbtVzhx6Qi96u8Gf1ajCya+RFdQ5aZ2ahX8kG6y9awE=",
+      "Fingerprint": "fnluvd4wdh",
+      "Integrity": "5SOQoRFfsu6kmnzi1nPM8103IDM7iiSZLR8AnrixAtg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\stocks.js"
@@ -2747,6 +2768,27 @@
       "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jx6rkj95c1-piogdgvwm8.gz",
+      "SourceId": "SwiftStocks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SwiftStocks",
+      "RelativePath": "css/news#[.{fingerprint=piogdgvwm8}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\news.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ght66c7nr0",
+      "Integrity": "PH8FodagJ1700++fKmyOKuTgbK56nxdSGdZxyvamF6M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\news.css"
+    },
+    {
       "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jxnd56aykl-jd9uben2k1.gz",
       "SourceId": "SwiftStocks",
       "SourceType": "Discovered",
@@ -3018,6 +3060,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\home.css"
+    },
+    {
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\m9dxqvviza-lqxq7nn0g6.gz",
+      "SourceId": "SwiftStocks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SwiftStocks",
+      "RelativePath": "js/news#[.{fingerprint=lqxq7nn0g6}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\news.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jh6u5hatio",
+      "Integrity": "qZoPcNZsCCaRH0BL/82QkC3Q48yNL8yxpibrSbn456I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\news.js"
     },
     {
       "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\narna5gwix-4d85u1mtcx.gz",
@@ -4301,6 +4364,48 @@
       "OriginalItemSpec": "wwwroot\\css\\navbar.css"
     },
     {
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\news.css",
+      "SourceId": "SwiftStocks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\",
+      "BasePath": "_content/SwiftStocks",
+      "RelativePath": "css/news#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "piogdgvwm8",
+      "Integrity": "38Lb+U1kjx7TcItQndLMjijA8u7lwMF/lGXwubGIxT8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\news.css"
+    },
+    {
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\owned.css",
+      "SourceId": "SwiftStocks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\",
+      "BasePath": "_content/SwiftStocks",
+      "RelativePath": "css/owned#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1nl8rxn2b0",
+      "Integrity": "c9F0W/RWhXWwcUdE0c3a8KtNGy5PVEClnvtnFXszzm8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\owned.css"
+    },
+    {
       "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\site.css",
       "SourceId": "SwiftStocks",
       "SourceType": "Discovered",
@@ -4406,6 +4511,27 @@
       "OriginalItemSpec": "wwwroot\\js\\home.js"
     },
     {
+      "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\news.js",
+      "SourceId": "SwiftStocks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\",
+      "BasePath": "_content/SwiftStocks",
+      "RelativePath": "js/news#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lqxq7nn0g6",
+      "Integrity": "TcD9nMCoq6ZTaYtD+lbNdZVwFWnAS7K7CSja4FD8HZo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\news.js"
+    },
+    {
       "Identity": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\site.js",
       "SourceId": "SwiftStocks",
       "SourceType": "Discovered",
@@ -4441,8 +4567,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4icnlmp5pi",
-      "Integrity": "9ENa7lzhafy18bU8T1MB+KHrjUhcTzdA5xMl9fzRcXQ=",
+      "Fingerprint": "lfnhag98vo",
+      "Integrity": "H1VgRkhVN4b2B+/ehcj1i93LKjarRWQJHis9hpBBelI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\stocks.js"
@@ -7196,6 +7322,602 @@
         {
           "Name": "integrity",
           "Value": "sha256-ixuxcp+QadrogwEIQrKemDW6zHsYnA55Ors4iltBWag="
+        }
+      ]
+    },
+    {
+      "Route": "css/news.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jx6rkj95c1-piogdgvwm8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001307189542"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "764"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PH8FodagJ1700++fKmyOKuTgbK56nxdSGdZxyvamF6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 15:15:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"38Lb+U1kjx7TcItQndLMjijA8u7lwMF/lGXwubGIxT8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-38Lb+U1kjx7TcItQndLMjijA8u7lwMF/lGXwubGIxT8="
+        }
+      ]
+    },
+    {
+      "Route": "css/news.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\news.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"38Lb+U1kjx7TcItQndLMjijA8u7lwMF/lGXwubGIxT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 15:15:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-38Lb+U1kjx7TcItQndLMjijA8u7lwMF/lGXwubGIxT8="
+        }
+      ]
+    },
+    {
+      "Route": "css/news.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jx6rkj95c1-piogdgvwm8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "764"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PH8FodagJ1700++fKmyOKuTgbK56nxdSGdZxyvamF6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 15:15:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PH8FodagJ1700++fKmyOKuTgbK56nxdSGdZxyvamF6M="
+        }
+      ]
+    },
+    {
+      "Route": "css/news.piogdgvwm8.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jx6rkj95c1-piogdgvwm8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001307189542"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "764"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PH8FodagJ1700++fKmyOKuTgbK56nxdSGdZxyvamF6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 15:15:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"38Lb+U1kjx7TcItQndLMjijA8u7lwMF/lGXwubGIxT8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "piogdgvwm8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/news.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-38Lb+U1kjx7TcItQndLMjijA8u7lwMF/lGXwubGIxT8="
+        }
+      ]
+    },
+    {
+      "Route": "css/news.piogdgvwm8.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\news.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"38Lb+U1kjx7TcItQndLMjijA8u7lwMF/lGXwubGIxT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 15:15:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "piogdgvwm8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/news.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-38Lb+U1kjx7TcItQndLMjijA8u7lwMF/lGXwubGIxT8="
+        }
+      ]
+    },
+    {
+      "Route": "css/news.piogdgvwm8.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\jx6rkj95c1-piogdgvwm8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "764"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PH8FodagJ1700++fKmyOKuTgbK56nxdSGdZxyvamF6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 15:15:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "piogdgvwm8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/news.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PH8FodagJ1700++fKmyOKuTgbK56nxdSGdZxyvamF6M="
+        }
+      ]
+    },
+    {
+      "Route": "css/owned.1nl8rxn2b0.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\cxhs75om00-1nl8rxn2b0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001111111111"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "899"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ovn9dnUhN7/IbQC93Sco2mr65l2AyekRmuTZrsUn3Cs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 10:15:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c9F0W/RWhXWwcUdE0c3a8KtNGy5PVEClnvtnFXszzm8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1nl8rxn2b0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/owned.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c9F0W/RWhXWwcUdE0c3a8KtNGy5PVEClnvtnFXszzm8="
+        }
+      ]
+    },
+    {
+      "Route": "css/owned.1nl8rxn2b0.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\owned.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2880"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c9F0W/RWhXWwcUdE0c3a8KtNGy5PVEClnvtnFXszzm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 10:15:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1nl8rxn2b0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/owned.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c9F0W/RWhXWwcUdE0c3a8KtNGy5PVEClnvtnFXszzm8="
+        }
+      ]
+    },
+    {
+      "Route": "css/owned.1nl8rxn2b0.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\cxhs75om00-1nl8rxn2b0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ovn9dnUhN7/IbQC93Sco2mr65l2AyekRmuTZrsUn3Cs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 10:15:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1nl8rxn2b0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/owned.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ovn9dnUhN7/IbQC93Sco2mr65l2AyekRmuTZrsUn3Cs="
+        }
+      ]
+    },
+    {
+      "Route": "css/owned.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\cxhs75om00-1nl8rxn2b0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001111111111"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "899"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ovn9dnUhN7/IbQC93Sco2mr65l2AyekRmuTZrsUn3Cs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 10:15:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c9F0W/RWhXWwcUdE0c3a8KtNGy5PVEClnvtnFXszzm8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c9F0W/RWhXWwcUdE0c3a8KtNGy5PVEClnvtnFXszzm8="
+        }
+      ]
+    },
+    {
+      "Route": "css/owned.css",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\owned.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2880"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c9F0W/RWhXWwcUdE0c3a8KtNGy5PVEClnvtnFXszzm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 10:15:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c9F0W/RWhXWwcUdE0c3a8KtNGy5PVEClnvtnFXszzm8="
+        }
+      ]
+    },
+    {
+      "Route": "css/owned.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\cxhs75om00-1nl8rxn2b0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ovn9dnUhN7/IbQC93Sco2mr65l2AyekRmuTZrsUn3Cs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 10:15:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ovn9dnUhN7/IbQC93Sco2mr65l2AyekRmuTZrsUn3Cs="
         }
       ]
     },
@@ -17079,6 +17801,304 @@
       ]
     },
     {
+      "Route": "js/news.js",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\m9dxqvviza-lqxq7nn0g6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003367003367"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "296"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qZoPcNZsCCaRH0BL/82QkC3Q48yNL8yxpibrSbn456I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 15:14:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TcD9nMCoq6ZTaYtD+lbNdZVwFWnAS7K7CSja4FD8HZo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TcD9nMCoq6ZTaYtD+lbNdZVwFWnAS7K7CSja4FD8HZo="
+        }
+      ]
+    },
+    {
+      "Route": "js/news.js",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\news.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TcD9nMCoq6ZTaYtD+lbNdZVwFWnAS7K7CSja4FD8HZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 15:14:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TcD9nMCoq6ZTaYtD+lbNdZVwFWnAS7K7CSja4FD8HZo="
+        }
+      ]
+    },
+    {
+      "Route": "js/news.js.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\m9dxqvviza-lqxq7nn0g6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "296"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qZoPcNZsCCaRH0BL/82QkC3Q48yNL8yxpibrSbn456I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 15:14:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qZoPcNZsCCaRH0BL/82QkC3Q48yNL8yxpibrSbn456I="
+        }
+      ]
+    },
+    {
+      "Route": "js/news.lqxq7nn0g6.js",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\m9dxqvviza-lqxq7nn0g6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003367003367"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "296"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qZoPcNZsCCaRH0BL/82QkC3Q48yNL8yxpibrSbn456I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 15:14:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TcD9nMCoq6ZTaYtD+lbNdZVwFWnAS7K7CSja4FD8HZo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lqxq7nn0g6"
+        },
+        {
+          "Name": "label",
+          "Value": "js/news.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TcD9nMCoq6ZTaYtD+lbNdZVwFWnAS7K7CSja4FD8HZo="
+        }
+      ]
+    },
+    {
+      "Route": "js/news.lqxq7nn0g6.js",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\news.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TcD9nMCoq6ZTaYtD+lbNdZVwFWnAS7K7CSja4FD8HZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 15:14:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lqxq7nn0g6"
+        },
+        {
+          "Name": "label",
+          "Value": "js/news.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TcD9nMCoq6ZTaYtD+lbNdZVwFWnAS7K7CSja4FD8HZo="
+        }
+      ]
+    },
+    {
+      "Route": "js/news.lqxq7nn0g6.js.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\m9dxqvviza-lqxq7nn0g6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "296"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qZoPcNZsCCaRH0BL/82QkC3Q48yNL8yxpibrSbn456I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 15:14:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lqxq7nn0g6"
+        },
+        {
+          "Name": "label",
+          "Value": "js/news.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qZoPcNZsCCaRH0BL/82QkC3Q48yNL8yxpibrSbn456I="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\gajok\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\js\\site.js",
       "Selectors": [],
@@ -17414,13 +18434,13 @@
       ]
     },
     {
-      "Route": "js/stocks.4icnlmp5pi.js",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\eevnv1ezsc-4icnlmp5pi.gz",
+      "Route": "js/stocks.js",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\eevnv1ezsc-lfnhag98vo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000928505107"
+          "Quality": "0.000802568218"
         }
       ],
       "ResponseHeaders": [
@@ -17430,19 +18450,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1076"
+          "Value": "1245"
         },
         {
           "Name": "ETag",
-          "Value": "\"UbtVzhx6Qi96u8Gf1ajCya+RFdQ5aZ2ahX8kG6y9awE=\""
+          "Value": "\"5SOQoRFfsu6kmnzi1nPM8103IDM7iiSZLR8AnrixAtg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:32:27 GMT"
+          "Value": "Sun, 15 Jun 2025 09:55:42 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -17458,26 +18478,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"9ENa7lzhafy18bU8T1MB+KHrjUhcTzdA5xMl9fzRcXQ=\""
+          "Value": "W/\"H1VgRkhVN4b2B+/ehcj1i93LKjarRWQJHis9hpBBelI=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "4icnlmp5pi"
-        },
-        {
-          "Name": "label",
-          "Value": "js/stocks.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-9ENa7lzhafy18bU8T1MB+KHrjUhcTzdA5xMl9fzRcXQ="
+          "Value": "sha256-H1VgRkhVN4b2B+/ehcj1i93LKjarRWQJHis9hpBBelI="
         }
       ]
     },
     {
-      "Route": "js/stocks.4icnlmp5pi.js",
+      "Route": "js/stocks.js",
       "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\stocks.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -17487,7 +18499,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2928"
+          "Value": "3662"
         },
         {
           "Name": "Content-Type",
@@ -17495,11 +18507,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9ENa7lzhafy18bU8T1MB+KHrjUhcTzdA5xMl9fzRcXQ=\""
+          "Value": "\"H1VgRkhVN4b2B+/ehcj1i93LKjarRWQJHis9hpBBelI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:32:27 GMT"
+          "Value": "Sun, 15 Jun 2025 09:55:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H1VgRkhVN4b2B+/ehcj1i93LKjarRWQJHis9hpBBelI="
+        }
+      ]
+    },
+    {
+      "Route": "js/stocks.js.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\eevnv1ezsc-lfnhag98vo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5SOQoRFfsu6kmnzi1nPM8103IDM7iiSZLR8AnrixAtg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 09:55:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5SOQoRFfsu6kmnzi1nPM8103IDM7iiSZLR8AnrixAtg="
+        }
+      ]
+    },
+    {
+      "Route": "js/stocks.lfnhag98vo.js",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\eevnv1ezsc-lfnhag98vo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000802568218"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1245"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5SOQoRFfsu6kmnzi1nPM8103IDM7iiSZLR8AnrixAtg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 09:55:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"H1VgRkhVN4b2B+/ehcj1i93LKjarRWQJHis9hpBBelI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lfnhag98vo"
+        },
+        {
+          "Name": "label",
+          "Value": "js/stocks.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H1VgRkhVN4b2B+/ehcj1i93LKjarRWQJHis9hpBBelI="
+        }
+      ]
+    },
+    {
+      "Route": "js/stocks.lfnhag98vo.js",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\stocks.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3662"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H1VgRkhVN4b2B+/ehcj1i93LKjarRWQJHis9hpBBelI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 09:55:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17509,7 +18666,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4icnlmp5pi"
+          "Value": "lfnhag98vo"
         },
         {
           "Name": "label",
@@ -17517,13 +18674,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9ENa7lzhafy18bU8T1MB+KHrjUhcTzdA5xMl9fzRcXQ="
+          "Value": "sha256-H1VgRkhVN4b2B+/ehcj1i93LKjarRWQJHis9hpBBelI="
         }
       ]
     },
     {
-      "Route": "js/stocks.4icnlmp5pi.js.gz",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\eevnv1ezsc-4icnlmp5pi.gz",
+      "Route": "js/stocks.lfnhag98vo.js.gz",
+      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\eevnv1ezsc-lfnhag98vo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -17532,7 +18689,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1076"
+          "Value": "1245"
         },
         {
           "Name": "Content-Type",
@@ -17540,11 +18697,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UbtVzhx6Qi96u8Gf1ajCya+RFdQ5aZ2ahX8kG6y9awE=\""
+          "Value": "\"5SOQoRFfsu6kmnzi1nPM8103IDM7iiSZLR8AnrixAtg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:32:27 GMT"
+          "Value": "Sun, 15 Jun 2025 09:55:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17562,7 +18719,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4icnlmp5pi"
+          "Value": "lfnhag98vo"
         },
         {
           "Name": "label",
@@ -17570,144 +18727,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UbtVzhx6Qi96u8Gf1ajCya+RFdQ5aZ2ahX8kG6y9awE="
-        }
-      ]
-    },
-    {
-      "Route": "js/stocks.js",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\eevnv1ezsc-4icnlmp5pi.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000928505107"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1076"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"UbtVzhx6Qi96u8Gf1ajCya+RFdQ5aZ2ahX8kG6y9awE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:32:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"9ENa7lzhafy18bU8T1MB+KHrjUhcTzdA5xMl9fzRcXQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9ENa7lzhafy18bU8T1MB+KHrjUhcTzdA5xMl9fzRcXQ="
-        }
-      ]
-    },
-    {
-      "Route": "js/stocks.js",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\stocks.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2928"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9ENa7lzhafy18bU8T1MB+KHrjUhcTzdA5xMl9fzRcXQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:32:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9ENa7lzhafy18bU8T1MB+KHrjUhcTzdA5xMl9fzRcXQ="
-        }
-      ]
-    },
-    {
-      "Route": "js/stocks.js.gz",
-      "AssetFile": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\obj\\Debug\\net9.0\\compressed\\eevnv1ezsc-4icnlmp5pi.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1076"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"UbtVzhx6Qi96u8Gf1ajCya+RFdQ5aZ2ahX8kG6y9awE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:32:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-UbtVzhx6Qi96u8Gf1ajCya+RFdQ5aZ2ahX8kG6y9awE="
+          "Value": "sha256-5SOQoRFfsu6kmnzi1nPM8103IDM7iiSZLR8AnrixAtg="
         }
       ]
     },

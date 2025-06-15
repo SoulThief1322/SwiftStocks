@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets\\css\\navbar.css"
     },
     {
+      "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\news.css",
+      "PackagePath": "staticwebassets\\css\\news.css"
+    },
+    {
+      "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\owned.css",
+      "PackagePath": "staticwebassets\\css\\owned.css"
+    },
+    {
       "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -43,6 +51,10 @@
     {
       "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\home.js",
       "PackagePath": "staticwebassets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\news.js",
+      "PackagePath": "staticwebassets\\js\\news.js"
     },
     {
       "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\site.js",

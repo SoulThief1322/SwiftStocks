@@ -872,9 +872,12 @@ C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\SwiftStocks.
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\SwiftStocks.genruntimeconfig.cache
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\ref\SwiftStocks.dll
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\krmj1o2dh4-rw8711dn13.gz
-C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\eevnv1ezsc-4icnlmp5pi.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\g4l4sexlm7-xv0zqc5f1c.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\a2yec02how-shsd06czf0.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\4a41ka496y-311f7fksgc.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\ghca3rshlx-amidly72ki.gz
 C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\lz6sr2yeti-4pj0zvqrtd.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\jx6rkj95c1-piogdgvwm8.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\m9dxqvviza-lqxq7nn0g6.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\eevnv1ezsc-lfnhag98vo.gz
+C:\Users\gajok\SwiftStocks\SwiftStocks\SwiftStocks\obj\Debug\net9.0\compressed\cxhs75om00-1nl8rxn2b0.gz

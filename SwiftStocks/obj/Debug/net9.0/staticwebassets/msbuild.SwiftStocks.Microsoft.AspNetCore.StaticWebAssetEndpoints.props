@@ -72,17 +72,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"piogdgvwm8"},{"Name":"integrity","Value":"sha256-38Lb\u002BU1kjx7TcItQndLMjijA8u7lwMF/lGXwubGIxT8="},{"Name":"label","Value":"_content/SwiftStocks/css/news.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2191"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002238Lb\u002BU1kjx7TcItQndLMjijA8u7lwMF/lGXwubGIxT8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Jun 2025 15:15:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/SwiftStocks/css/owned.1nl8rxn2b0.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\owned.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1nl8rxn2b0"},{"Name":"integrity","Value":"sha256-c9F0W/RWhXWwcUdE0c3a8KtNGy5PVEClnvtnFXszzm8="},{"Name":"label","Value":"_content/SwiftStocks/css/owned.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2880"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022c9F0W/RWhXWwcUdE0c3a8KtNGy5PVEClnvtnFXszzm8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Jun 2025 10:15:38 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SwiftStocks/css/owned.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\owned.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-c9F0W/RWhXWwcUdE0c3a8KtNGy5PVEClnvtnFXszzm8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2880"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022c9F0W/RWhXWwcUdE0c3a8KtNGy5PVEClnvtnFXszzm8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Jun 2025 10:15:38 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-80c51dT1t9fl2xA\u002B0O79CZYUcO0\u002BYU3bm3hwePJN7Ho="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2273"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002280c51dT1t9fl2xA\u002B0O79CZYUcO0\u002BYU3bm3hwePJN7Ho=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Jun 2025 10:29:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SwiftStocks/css/owned.ptmet4owp0.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\owned.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ptmet4owp0"},{"Name":"integrity","Value":"sha256-80c51dT1t9fl2xA\u002B0O79CZYUcO0\u002BYU3bm3hwePJN7Ho="},{"Name":"label","Value":"_content/SwiftStocks/css/owned.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2273"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002280c51dT1t9fl2xA\u002B0O79CZYUcO0\u002BYU3bm3hwePJN7Ho=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Jun 2025 10:29:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SwiftStocks/css/site.b9sayid5wm.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

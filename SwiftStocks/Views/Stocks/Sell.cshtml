@@ -1,0 +1,22 @@
+@model SwiftStocks.Models.SellViewModel
+<link rel="stylesheet" href="~/css/sell.css">
+<div class="sell-page">
+    <h2>Sell @Model.StockName (@Model.StockSymbol)</h2>
+
+    <form asp-action="Sell" method="post" class="sell-form">
+    <input type="hidden" asp-for="StockSymbol" />
+    <input type="hidden" asp-for="StockName" />
+    <input type="hidden" asp-for="Quantity" />
+    <input type="hidden" asp-for="PurchasePrice" />
+
+    <p>You own <strong>@Model.Quantity</strong> shares of <strong>@Model.StockName</strong> at $@Model.PurchasePrice each.</p>
+    <p>Do you want to sell all of them?</p>
+
+    <button type="submit" class="btn btn-danger">Sell</button>
+    <button type="button" class="btn btn-secondary cancel-btn" onclick="window.location.href='@Url.Action("Index", "Stocks")'">Cancel</button>
+</form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

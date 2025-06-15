@@ -1,16 +1,18 @@
-
 @model SwiftStocks.Models.StocksViewModel
+@using System.Text.Json
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <title>Stocks</title>
     <link rel="stylesheet" href="~/css/stocks.css" />
 </head>
+
 <body>
     <div class="top-bar">
         <nav>
-           
             <ul>
                 <li>My watchlist</li>
                 @foreach (var watchlist in Model.Watchlists)
@@ -22,21 +24,91 @@
     </div>
 
     <div class="layout">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            
-        </aside>
-
-        <!-- Main Panel -->
+        <aside class="sidebar"></aside>
         <main class="main-panel">
-            <div class="stock-panel">
-                
-                </div>
-                
-            </div>
-            
+            <div class="stock-panel"></div>
         </main>
     </div>
+
+    @{
+        var defaultMyWatchlistSymbols = new List<string>
+        {
+        "AAPL", "GOOGL", "MSFT", "AMZN", "TSLA", "NVDA", "META", "NFLX"
+        };
+
+        var dynamicEntries = Model.Watchlists
+        .Where(w => w.Name != "My watchlist")
+        .Select(w => $"\"{w.Name}\": {JsonSerializer.Serialize(w.WatchlistStocks.Select(ws => ws.Stock.Symbol).ToList())}");
+
+        var allEntries = new List<string>
+        {
+        $"\"My watchlist\": {JsonSerializer.Serialize(defaultMyWatchlistSymbols)}"
+        };
+        allEntries.AddRange(dynamicEntries);
+
+        var filterJson = string.Join(",", allEntries);
+    }
+    <script>
+        const filters = { @Html.Raw(filterJson) };
+        console.log("Filters loaded (with default My watchlist):", filters);
+    </script>
+    <script>
+        function attemptSell(symbol) {
+            fetch(`/Stocks/CheckOwnership?symbol=${encodeURIComponent(symbol)}`)
+                .then(res => {
+                    if (res.ok) {
+                        window.location.href = `/Stocks/Sell?symbol=${encodeURIComponent(symbol)}`;
+                    } else {
+                        return res.text().then(msg => {
+                            showToast(msg || "You don't own this stock.");
+                        });
+                    }
+                })
+                .catch(() => showToast("Error checking stock ownership."));
+        }
+
+        function showToast(message) {
+            const existing = document.querySelector('.toast-message');
+            if (existing) existing.remove();
+
+            const toast = document.createElement('div');
+            toast.className = 'toast-message';
+            toast.innerText = message;
+
+            document.body.appendChild(toast);
+
+            setTimeout(() => toast.classList.add('show'), 10);
+            setTimeout(() => {
+                toast.classList.remove('show');
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
+        }
+    </script>
+
+    <style>
+        .toast-message {
+            position: fixed;
+            top: 1.5rem;
+            right: 2rem;
+            background-color: #FF6B6B;
+            color: #fff;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            opacity: 0;
+            pointer-events: none;
+            transform: translateY(-20px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            z-index: 9999;
+            font-weight: bold;
+        }
+
+        .toast-message.show {
+            opacity: 1;
+            pointer-events: auto;
+            transform: translateY(0);
+        }
+    </style>
     <script src="~/js/stocks.js"></script>
 </body>
+
 </html>

@@ -1,30 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const filters = {
-    "My watchlist": [
-      "AAPL",
-      "GOOGL",
-      "MSFT",
-      "AMZN",
-      "TSLA",
-      "NVDA",
-      "META",
-      "NFLX",
-    ],
-    Stocks: [
-      "AAPL",
-      "MSFT",
-      "AMZN",
-      "TSLA",
-      "META",
-      "NVDA",
-      "GOOGL",
-      "NFLX",
-      "INTC",
-      "AMD",
-    ]
-  };
+  console.log("Filters object in JS:", filters);
 
   const navItems = document.querySelectorAll(".top-bar nav ul li");
+  console.log("Nav items found:", navItems);
 
   navItems.forEach((item) => {
     item.addEventListener("click", () => {
@@ -33,11 +11,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const category = item.textContent.trim();
       const symbols = filters[category] || [];
+
+      console.log(`Clicked watchlist: "${category}", symbols:`, symbols);
+
       fetchTopMovers(symbols);
     });
   });
 
-  fetchTopMovers(filters["My watchlist"]);
+  // Default: load first watchlist or empty array if none
+  const defaultKey = Object.keys(filters)[0];
+  const defaultSymbols = filters[defaultKey] || [];
+  fetchTopMovers(defaultSymbols);
+
+  // Mark first nav item active by default (if exists)
+  if (navItems.length > 0) {
+    navItems[0].classList.add("active");
+  }
 });
 
 function fetchTopMovers(symbols) {
@@ -59,7 +48,8 @@ function fetchTopMovers(symbols) {
         const change = quote.c - quote.o;
         const changePercent = ((change / quote.o) * 100).toFixed(2);
         return {
-          name: profile.name || symbol,
+          symbol: symbol, // <== include symbol here
+          name: profile.name || symbol, // full company name
           price: `$${quote.c.toFixed(2)}`,
           rawPrice: quote.c.toFixed(2),
           change: `${change >= 0 ? "+" : ""}${change.toFixed(
@@ -104,8 +94,17 @@ function fetchTopMovers(symbols) {
           <div class="stock-header">
             <span class="stock-name">${stock.name}</span>
             <div class="price-box">
-              <div class="sell">SELL <span>${stock.rawPrice}</span></div>
-              <div class="buy">BUY <span>${stock.rawPrice}</span></div>
+              <div class="sell" onclick="attemptSell('${stock.symbol}')">
+  SELL <span>${stock.rawPrice}</span>
+</div>
+
+              <div class="buy" onclick="window.location.href='/Stocks/Buy?symbol=${encodeURIComponent(
+                stock.symbol
+              )}&name=${encodeURIComponent(
+          stock.name
+        )}&price=${encodeURIComponent(stock.rawPrice)}'">
+                BUY <span>${stock.rawPrice}</span>
+              </div>
             </div>
             <div class="monthly-change">${stock.change} last month</div>
           </div>

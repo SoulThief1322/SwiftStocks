@@ -21,7 +21,8 @@
             <div class="trade-card owned-stock-card">
                 <div class="card-text">
                     <p>@stock.StockName - @stock.Quantity shares</p>
-                    <button class="cta-button">Sell</button>
+                    <button class="cta-button" data-symbol="@stock.StockSymbol"
+                        onclick="attemptSellOwned(this)">Sell</button>
                 </div>
                 <div class="card-icon">📈</div>
             </div>
@@ -46,5 +47,5 @@
         <div class="card-icon">💱</div>
     </div>
 </div>
-
+<script src="~/js/owned.js"></script>
 <link rel="stylesheet" href="~/css/Owned.css" />

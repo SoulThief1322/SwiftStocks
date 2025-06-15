@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>id1ddcolwy</Fingerprint>
-      <Integrity>yhpNAPVZ2ufyGaWJy4LD0itK7HpcDAQWOiyTfLT5Bqk=</Integrity>
+      <Fingerprint>rl38h6afum</Fingerprint>
+      <Integrity>wVK0aTq6PNnzPtfio/YkYnnbCYjY9bXQet2ahvEimzo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\buy.css'))</OriginalItemSpec>
@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6w4a5ykxkv</Fingerprint>
-      <Integrity>RqRUwxco0pIiDIc7IUx0G51BYZkEEsFQh6aw/em9kz0=</Integrity>
+      <Fingerprint>hkivjoek5r</Fingerprint>
+      <Integrity>waLtrGF/UAUS5/xkXVuK0olw1SnXPJizLDuqkZfdW/M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\sell.css'))</OriginalItemSpec>

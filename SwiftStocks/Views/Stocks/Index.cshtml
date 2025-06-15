@@ -1,5 +1,5 @@
 
-
+@model SwiftStocks.Models.StocksViewModel
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +10,13 @@
 <body>
     <div class="top-bar">
         <nav>
+           
             <ul>
                 <li>My watchlist</li>
-                <li>Stocks</li>
+                @foreach (var watchlist in Model.Watchlists)
+                {
+                    <li>@watchlist.Name</li>
+                }
             </ul>
         </nav>
     </div>

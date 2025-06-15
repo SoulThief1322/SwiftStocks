@@ -69,8 +69,7 @@
               "RelativeToolTip": "SwiftStocks\\Models\\BuyViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:21:58.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T11:21:58.123Z"
             },
             {
               "$type": "Document",
@@ -82,8 +81,7 @@
               "RelativeToolTip": "SwiftStocks\\Views\\Stocks\\Buy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T11:14:08.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T11:14:08.922Z"
             },
             {
               "$type": "Document",
@@ -107,8 +105,7 @@
               "RelativeToolTip": "SwiftStocks\\Views\\Stocks\\Index.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T10:45:27.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T10:45:27.08Z"
             },
             {
               "$type": "Document",
@@ -118,7 +115,7 @@
               "RelativeDocumentMoniker": "SwiftStocks\\Controllers\\StocksController.cs",
               "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Controllers\\StocksController.cs",
               "RelativeToolTip": "SwiftStocks\\Controllers\\StocksController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwDsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T10:40:07.871Z",
               "EditorCaption": ""
@@ -133,8 +130,7 @@
               "RelativeToolTip": "SwiftStocks\\Models\\StocksViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T10:36:13.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T10:36:13.922Z"
             },
             {
               "$type": "Document",
@@ -146,8 +142,7 @@
               "RelativeToolTip": "SwiftStocks\\Views\\Owned\\Index.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T10:07:08.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T10:07:08.889Z"
             },
             {
               "$type": "Document",
@@ -159,8 +154,7 @@
               "RelativeToolTip": "SwiftStocks\\Controllers\\OwnedController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T10:03:07.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T10:03:07.045Z"
             },
             {
               "$type": "Document",
@@ -184,8 +178,7 @@
               "RelativeToolTip": "SwiftStocks\\Controllers\\NewsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T15:06:16.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T15:06:16.291Z"
             },
             {
               "$type": "Document",
@@ -197,8 +190,7 @@
               "RelativeToolTip": "SwiftStocks\\Data\\Models\\ContactLetter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T14:32:59.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T14:32:59.48Z"
             }
           ]
         }

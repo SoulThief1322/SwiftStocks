@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SwiftStocks.Data;
@@ -36,7 +37,7 @@ public class StocksController : Controller
         };
         return View(model);
     }
-
+    [Authorize]
     [HttpGet]
     [Route("Stocks/Buy")]
     public IActionResult Buy(string symbol, string name, decimal price)
@@ -56,7 +57,7 @@ public class StocksController : Controller
 
         return View(model);
     }
-
+    [Authorize]
     [HttpPost]
     [ValidateAntiForgeryToken]
     [Route("Stocks/Buy")]
@@ -93,7 +94,7 @@ public class StocksController : Controller
 
         return RedirectToAction("Index", "Stocks");
     }
-
+    [Authorize]
     [HttpGet]
     [Route("Stocks/Sell")]
     public async Task<IActionResult> Sell(string symbol)
@@ -121,7 +122,7 @@ public class StocksController : Controller
 
         return View(model);
     }
-
+    [Authorize]
     [HttpPost]
     [ValidateAntiForgeryToken]
     [Route("Stocks/Sell")]
@@ -145,6 +146,7 @@ public class StocksController : Controller
 
         return RedirectToAction("Index", "Stocks");
     }
+    [Authorize]
     [HttpGet]
     [Route("Stocks/CheckOwnership")]
     public async Task<IActionResult> CheckOwnership(string symbol)

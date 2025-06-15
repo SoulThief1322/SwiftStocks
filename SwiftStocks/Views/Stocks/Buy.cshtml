@@ -1,0 +1,28 @@
+@model SwiftStocks.Models.BuyViewModel
+<link rel="stylesheet" href="~/css/buy.css">
+
+
+<div class="buy-page">
+    <h2>Buy @Model.StockName (@Model.StockSymbol)</h2>
+
+    <form asp-action="Buy" method="post" class="buy-form">
+    <input type="hidden" asp-for="UserId" />
+    <input type="hidden" asp-for="StockSymbol" />
+    <input type="hidden" asp-for="StockName" />
+    <input type="hidden" asp-for="PurchasePrice" />
+
+    <div class="form-group">
+        <label asp-for="Quantity"></label>
+        <input asp-for="Quantity" class="form-control" min="1" />
+        <span asp-validation-for="Quantity" class="text-danger"></span>
+    </div>
+    <div class="button-group">
+        <button type="submit" class="btn btn-primary">Confirm Purchase</button>
+    <button type="button" class="btn btn-secondary cancel-btn" onclick="window.location.href='@Url.Action("Index", "Stocks")'">Cancel</button>
+    </div>
+    
+</form>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

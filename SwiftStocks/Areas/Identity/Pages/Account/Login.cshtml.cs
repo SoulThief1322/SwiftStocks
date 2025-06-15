@@ -57,7 +57,7 @@ namespace SwiftStocks.Areas.Identity.Pages.Account
         {
             if (!string.IsNullOrEmpty(ErrorMessage))
             {
-                ModelState.AddModelError(string.Empty, ErrorMessage);
+                ModelState.AddModelError(string.Empty, "Incorrect email/username or password.");
             }
 
             returnUrl ??= Url.Content("~/");
@@ -110,7 +110,7 @@ namespace SwiftStocks.Areas.Identity.Pages.Account
                     }
                 }
 
-                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                ModelState.AddModelError(string.Empty, "Incorrect email/username or password");
             }
 
             return Page();

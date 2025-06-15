@@ -1,12 +1,54 @@
-@page
+@{
+    ViewData["Title"] = "Contact Us";
+}
 
-<h2>Contacts</h2>
+<link rel="stylesheet" href="~/css/contact.css" />
 
-<p>
-    You can reach us at:
-</p>
-<ul>
-    <li>Email: support@swiftstocks.com</li>
-    <li>Phone: +1 (555) 123-4567</li>
-    <li>Address: 123 Market St, New York, NY 10001</li>
-</ul>
+<div class="contact-wrapper">
+    <h1>Contact SwiftStocks</h1>
+    <p>
+        Have a question, suggestion, or just want to say hello? We’d love to hear from you. Use the form below or reach us through our contact details.
+    </p>
+
+    <div class="contact-grid">
+        <div class="contact-form">
+            <form method="post" asp-action="Contact">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="Name" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="Email" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="Subject" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="Message" rows="6" required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <h2>Other Ways to Reach Us</h2>
+            <ul>
+                <li><strong>Email:</strong> support@swiftstocks.com</li>
+                <li><strong>Phone:</strong> +1 (800) 555-1234</li>
+                <li><strong>Address:</strong> 123 Market Street, Finance City, NY</li>
+                <li><strong>Follow:</strong> 
+                    <a href="#">Twitter</a>, 
+                    <a href="#">LinkedIn</a>, 
+                    <a href="#">Instagram</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

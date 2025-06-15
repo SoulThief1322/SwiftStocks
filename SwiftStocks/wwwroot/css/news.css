@@ -1,0 +1,137 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #1C1F26;
+  color: #E1E6EB;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  font-family: 'Source Serif Pro', serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header {
+  background-color: #252932;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 2.5rem;
+  color: #FFD580;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #B4B8C5;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #FFD580;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #252932;
+  color: #E1E6EB;
+  width: 300px;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.news-card {
+  background-color: #252932;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-10px);
+}
+
+.news-card h2 {
+  font-size: 1.8rem;
+}
+
+.news-card p {
+  color: #B4B8C5;
+  flex-grow: 1;
+}
+
+.read-more {
+  background-color: #FFD580;
+  color: #1C1F26;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.read-more:hover {
+  background-color: #FFF2CC;
+}
+
+/* Call to Action */
+.cta {
+  background-color: #FFD580;
+  color: #1C1F26;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.cta:hover {
+  background-color: #FFF2CC;
+}
+
+/* Footer */
+footer {
+  background-color: #1C1F26;
+  color: #B4B8C5;
+  text-align: center;
+  padding: 10px;
+}

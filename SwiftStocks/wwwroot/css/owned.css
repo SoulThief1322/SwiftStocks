@@ -1,0 +1,124 @@
+body {
+  background-color: #1c1f26;
+  color: #e1e6eb;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-container {
+  max-width: 600px;
+  margin: 100px auto 40px auto;
+  padding: 20px;
+  background-color: #252932;
+  border-radius: 12px;
+}
+
+.value-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.value-label {
+  font-size: 1.4rem;
+  color: #b4b8c5;
+}
+
+.value-amount {
+  font-size: 2.2rem;
+  margin-top: 5px;
+}
+
+.margin-bar {
+  background-color: #ffd580;
+  color: #1c1f26;
+  padding: 8px;
+  border-radius: 20px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.trade-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d313c;
+  padding: 16px;
+  border-radius: 12px;
+  color: #e1e6eb;
+  margin-top: 10px;
+}
+
+.card-text p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.cta-button {
+  margin-top: 8px;
+  padding: 8px 14px;
+  background-color: #ffd580;
+  color: #1c1f26;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.3s ease!important;
+}
+
+.cta-button:hover {
+  background-color: #fff2cc;
+}
+
+.card-icon {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  font-size: 2rem;
+}
+
+.owned-stock-card {
+  background-color: #ffd580;
+  color: #1c1f26;
+  padding: 32px 40px;
+  border-radius: 20px;
+  font-size: 1.6rem;
+  font-weight: 900;
+  box-shadow: 0 10px 25px rgba(255, 213, 79, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.owned-stock-card .card-text p {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.owned-stock-card .cta-button {
+  margin-top: 12px;
+  padding: 12px 24px;
+  background-color: #1c1f26;
+  color: #ffd580;
+  font-weight: 900;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  border: 3px solid #ffd580;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.owned-stock-card .cta-button:hover {
+  transform: scale(1.1);
+}
+
+.owned-stock-card .card-icon {
+  font-size: 4rem;
+  margin-left: 30px;
+}

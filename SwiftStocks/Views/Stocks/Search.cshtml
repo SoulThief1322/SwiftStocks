@@ -1,0 +1,30 @@
+<div class="watchlist-page">
+    <h2>Add Stock to Watchlist</h2>
+    <form id="add-to-watchlist-form" class="watchlist-form">
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            <label for="watchlist-select">Select Watchlist:</label>
+            <select id="watchlist-select" name="watchlistName" class="form-control" required>
+                @foreach (var watchlist in Model.WatchlistNames)
+                {
+                    <option value="@watchlist">@watchlist</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="stock-symbol">Stock Symbol:</label>
+            <input type="text" id="stock-symbol" name="symbol" class="form-control" placeholder="Stock symbol"
+                required />
+        </div>
+        <p>
+            In case you do not know the symbol of the company you are willing to search, visit this
+            <a href="https://stockanalysis.com/stocks/" target="_blank" rel="noopener noreferrer">link</a>.
+        </p>
+        <p>!!!Some stocks may not be currently available to add because of API limitations!!!</p>
+        <div class="btn-group">
+            <button type="submit" class="btn-primary">Add to Watchlist</button>
+        </div>
+    </form>
+</div>
+<link rel="stylesheet" href="~/css/search.css">
+<script src="~/js/search.js"></script>

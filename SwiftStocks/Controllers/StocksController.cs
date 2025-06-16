@@ -162,8 +162,81 @@ public class StocksController : Controller
 
         return holding != null ? Ok() : NotFound("You don't own this stock.");
     }
+    public async Task<IActionResult> Search()
+    {
+        var watchlistNames = await _context.Watchlists
+    .Where(w => w.UserId == User.FindFirstValue(ClaimTypes.NameIdentifier))
+    .Select(w => w.Name)
+    .ToListAsync();
+        var namesViewModel = new SearchViewModel
+        {
+            WatchlistNames = watchlistNames,
+        };
+        return View(namesViewModel);
+    }
+    [Authorize]
+    [HttpPost]
+    [Route("Stocks/AddSymbolToWatchlist")]
+    public async Task<IActionResult> AddSymbolToWatchlist([FromBody] StockDto dto)
+    {
+        if (string.IsNullOrWhiteSpace(dto.Symbol))
+            return BadRequest("Symbol is required.");
 
+        if (string.IsNullOrWhiteSpace(dto.WatchlistName))
+            return BadRequest("Watchlist name is required.");
 
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (userId == null)
+            return Unauthorized();
+
+        var watchlist = await _context.Watchlists
+            .Include(w => w.WatchlistStocks)
+            .ThenInclude(ws => ws.Stock)
+            .FirstOrDefaultAsync(w => w.UserId == userId && w.Name == dto.WatchlistName);
+
+        if (watchlist == null)
+        {
+            watchlist = new Watchlist
+            {
+                UserId = userId,
+                Name = dto.WatchlistName
+            };
+            _context.Watchlists.Add(watchlist);
+            await _context.SaveChangesAsync();
+        }
+
+        var stockSymbol = dto.Symbol.ToUpper();
+        var stock = await _context.Stocks
+            .Include(s => s.WatchlistStocks)
+            .FirstOrDefaultAsync(s => s.Symbol == stockSymbol);
+        if (stock == null)
+        {
+            stock = new Stock { Symbol = stockSymbol };
+            _context.Stocks.Add(stock);
+            await _context.SaveChangesAsync();
+        }
+        bool alreadyAdded = watchlist.WatchlistStocks.Any(ws => ws.StockId == stock.Id);
+        if (alreadyAdded)
+        {
+            return BadRequest($"Symbol '{stockSymbol}' is already in your watchlist.");
+        }
+
+        watchlist.WatchlistStocks.Add(new WatchlistStock
+        {
+            WatchlistId = watchlist.Id,
+            StockId = stock.Id
+        });
+
+        await _context.SaveChangesAsync();
+
+        return Ok(new { message = $"Symbol '{stockSymbol}' added to your watchlist '{dto.WatchlistName}'." });
+        
+    }
+    public class StockDto
+    {
+        public string Symbol { get; set; }
+        public string WatchlistName { get; set; }
+    }
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

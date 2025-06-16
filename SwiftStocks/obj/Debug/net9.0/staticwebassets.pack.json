@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\css\\owned.css"
     },
     {
+      "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\search.css",
+      "PackagePath": "staticwebassets\\css\\search.css"
+    },
+    {
       "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\css\\sell.css",
       "PackagePath": "staticwebassets\\css\\sell.css"
     },
@@ -67,6 +71,10 @@
     {
       "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\owned.js",
       "PackagePath": "staticwebassets\\js\\owned.js"
+    },
+    {
+      "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\search.js",
+      "PackagePath": "staticwebassets\\js\\search.js"
     },
     {
       "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\site.js",

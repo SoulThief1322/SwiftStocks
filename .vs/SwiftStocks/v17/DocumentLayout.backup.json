@@ -7,6 +7,21 @@
       "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\controllers\\ownedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\controllers\\ownedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\models\\searchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\models\\searchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\views\\stocks\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\views\\stocks\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\views\\stocks\\buy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\views\\stocks\\buy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -23,10 +38,6 @@
       "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\views\\stocks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\controllers\\ownedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\controllers\\ownedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,9 +52,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|c:\\users\\gajok\\swiftstocks\\swiftstocks\\swiftstocks\\models\\ownedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF8BC95F-6C88-40B2-8801-9AAD89359C20}|SwiftStocks\\SwiftStocks.csproj|solutionrelative:swiftstocks\\models\\ownedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,7 +61,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,6 +70,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SearchViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Models\\SearchViewModel.cs",
+              "RelativeDocumentMoniker": "SwiftStocks\\Models\\SearchViewModel.cs",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Models\\SearchViewModel.cs",
+              "RelativeToolTip": "SwiftStocks\\Models\\SearchViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:00:38.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Views\\Stocks\\Search.cshtml",
+              "RelativeDocumentMoniker": "SwiftStocks\\Views\\Stocks\\Search.cshtml",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Views\\Stocks\\Search.cshtml",
+              "RelativeToolTip": "SwiftStocks\\Views\\Stocks\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T06:59:24.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BuyViewModel.cs",
               "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Models\\BuyViewModel.cs",
               "RelativeDocumentMoniker": "SwiftStocks\\Models\\BuyViewModel.cs",
@@ -69,12 +103,11 @@
               "RelativeToolTip": "SwiftStocks\\Models\\BuyViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:21:58.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T11:21:58.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Buy.cshtml",
               "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Views\\Stocks\\Buy.cshtml",
               "RelativeDocumentMoniker": "SwiftStocks\\Views\\Stocks\\Buy.cshtml",
@@ -82,24 +115,23 @@
               "RelativeToolTip": "SwiftStocks\\Views\\Stocks\\Buy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T11:14:08.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T11:14:08.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAOAUAAAAAAAAAAAhwPMUAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAOUUAAAAAAAAAAAtwPMUAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2025-06-15T10:47:21.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Views\\Stocks\\Index.cshtml",
               "RelativeDocumentMoniker": "SwiftStocks\\Views\\Stocks\\Index.cshtml",
@@ -107,8 +139,7 @@
               "RelativeToolTip": "SwiftStocks\\Views\\Stocks\\Index.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T10:45:27.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T10:45:27.08Z"
             },
             {
               "$type": "Document",
@@ -116,16 +147,16 @@
               "Title": "StocksController.cs",
               "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Controllers\\StocksController.cs",
               "RelativeDocumentMoniker": "SwiftStocks\\Controllers\\StocksController.cs",
-              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Controllers\\StocksController.cs",
-              "RelativeToolTip": "SwiftStocks\\Controllers\\StocksController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Controllers\\StocksController.cs*",
+              "RelativeToolTip": "SwiftStocks\\Controllers\\StocksController.cs*",
+              "ViewState": "AgIAANkAAAAAAAAAAAAgwOgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T10:40:07.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "StocksViewModel.cs",
               "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Models\\StocksViewModel.cs",
               "RelativeDocumentMoniker": "SwiftStocks\\Models\\StocksViewModel.cs",
@@ -133,12 +164,11 @@
               "RelativeToolTip": "SwiftStocks\\Models\\StocksViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T10:36:13.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T10:36:13.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Views\\Owned\\Index.cshtml",
               "RelativeDocumentMoniker": "SwiftStocks\\Views\\Owned\\Index.cshtml",
@@ -146,12 +176,11 @@
               "RelativeToolTip": "SwiftStocks\\Views\\Owned\\Index.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T10:07:08.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T10:07:08.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "OwnedController.cs",
               "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Controllers\\OwnedController.cs",
               "RelativeDocumentMoniker": "SwiftStocks\\Controllers\\OwnedController.cs",
@@ -164,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "OwnedViewModel.cs",
               "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Models\\OwnedViewModel.cs",
               "RelativeDocumentMoniker": "SwiftStocks\\Models\\OwnedViewModel.cs",
@@ -176,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "NewsController.cs",
               "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Controllers\\NewsController.cs",
               "RelativeDocumentMoniker": "SwiftStocks\\Controllers\\NewsController.cs",
@@ -184,12 +213,11 @@
               "RelativeToolTip": "SwiftStocks\\Controllers\\NewsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T15:06:16.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T15:06:16.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ContactLetter.cs",
               "DocumentMoniker": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\Data\\Models\\ContactLetter.cs",
               "RelativeDocumentMoniker": "SwiftStocks\\Data\\Models\\ContactLetter.cs",
@@ -197,8 +225,7 @@
               "RelativeToolTip": "SwiftStocks\\Data\\Models\\ContactLetter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T14:32:59.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T14:32:59.48Z"
             }
           ]
         }

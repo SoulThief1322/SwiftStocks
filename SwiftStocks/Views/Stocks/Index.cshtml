@@ -19,6 +19,17 @@
                 {
                     <li>@watchlist.Name</li>
                 }
+                @if (User.Identity != null && User.Identity.IsAuthenticated)
+                {
+                    <div style="border-left: 3px solid #ccc; height: 40px; margin: 0 10px;"></div>
+                    <li>
+                        <a href="/Stocks/Search" class="search-link" style="color: white;">Add to watchlist</a>
+                    </li>
+                    <li>
+                        <a href="" style="color: white;">CreateWatchlist</a>
+                    </li>
+                }
+
             </ul>
         </nav>
     </div>

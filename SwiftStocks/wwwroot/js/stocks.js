@@ -18,12 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Default: load first watchlist or empty array if none
   const defaultKey = Object.keys(filters)[0];
   const defaultSymbols = filters[defaultKey] || [];
   fetchTopMovers(defaultSymbols);
 
-  // Mark first nav item active by default (if exists)
   if (navItems.length > 0) {
     navItems[0].classList.add("active");
   }
@@ -48,8 +46,8 @@ function fetchTopMovers(symbols) {
         const change = quote.c - quote.o;
         const changePercent = ((change / quote.o) * 100).toFixed(2);
         return {
-          symbol: symbol, // <== include symbol here
-          name: profile.name || symbol, // full company name
+          symbol: symbol,
+          name: profile.name || symbol,
           price: `$${quote.c.toFixed(2)}`,
           rawPrice: quote.c.toFixed(2),
           change: `${change >= 0 ? "+" : ""}${change.toFixed(

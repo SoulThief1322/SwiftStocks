@@ -230,8 +230,46 @@ public class StocksController : Controller
         await _context.SaveChangesAsync();
 
         return Ok(new { message = $"Symbol '{stockSymbol}' added to your watchlist '{dto.WatchlistName}'." });
-        
+
     }
+    public async Task<IActionResult> AddWatchlist()
+    {
+        return View();
+    }
+    [HttpPost]
+    [Authorize]
+    [Route("Stocks/AddNewWatchlist")]
+    public async Task<IActionResult> AddNewWatchlist(string watchlistName)
+    {
+        if (string.IsNullOrWhiteSpace(watchlistName))
+        {
+            ModelState.AddModelError("", "Watchlist name is required.");
+            return View();
+        }
+
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (userId == null)
+            return Unauthorized();
+
+        var exists = await _context.Watchlists.AnyAsync(w => w.UserId == userId && w.Name == watchlistName);
+        if (exists)
+        {
+            ModelState.AddModelError("", "A watchlist with this name already exists.");
+            return View();
+        }
+
+        var watchlist = new Watchlist
+        {
+            Name = watchlistName,
+            UserId = userId,
+            WatchlistStocks = new List<WatchlistStock>()
+        };
+
+        _context.Watchlists.Add(watchlist);
+        await _context.SaveChangesAsync();
+
+        return RedirectToAction("Index");
+        }
     public class StockDto
     {
         public string Symbol { get; set; }

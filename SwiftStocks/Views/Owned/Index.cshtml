@@ -2,7 +2,7 @@
 <div class="dashboard-container">
     <div class="value-section">
         <div class="value-label">Value</div>
-        <div class="value-amount">BGN <span>@Model.TotalValue</span></div>
+        <div class="value-amount">BGN <span></span></div>
         <div class="margin-bar">
             <span>Margin health - 50%</span>
         </div>
@@ -20,6 +20,7 @@
         {
             <div class="trade-card owned-stock-card">
                 <div class="card-text">
+                    <input type="hidden" id="@stock.StockSymbol" value="@stock.Quantity">
                     <p>@stock.StockName - @stock.Quantity shares</p>
                     <button class="cta-button" data-symbol="@stock.StockSymbol"
                         onclick="attemptSellOwned(this)">Sell</button>

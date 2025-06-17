@@ -1,4 +1,3 @@
-// Search functionality
 document.getElementById('searchInput').addEventListener('input', function(e) {
   const searchTerm = e.target.value.toLowerCase();
   const newsCards = document.querySelectorAll('.news-card');

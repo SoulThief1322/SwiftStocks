@@ -1,0 +1,115 @@
+.create-news-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 1rem 2rem;
+  min-height: 100vh;
+  background-color: #1c1f26;
+  color: #e1e6eb;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.create-news-page h2 {
+  color: #ffd580;
+  border-bottom: 2px solid #9c9eff;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.create-form {
+  background-color: #252932;
+  padding: 2rem 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 213, 128, 0.15);
+  max-width: 500px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #e1e6eb;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #1c1f26;
+  color: #e1e6eb;
+  font-size: 1rem;
+  transition: box-shadow 0.3s ease;
+  resize: none;
+}
+
+.form-control::placeholder {
+  color: #7a7f8c;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0 0 6px 2px #ffd580;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.75rem 2rem;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  min-width: 140px;
+  flex-grow: 1;
+  max-width: 180px;
+  text-align: center;
+  border: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #4caf50;
+  color: #1c1f26;
+}
+
+.btn-primary:hover {
+  background-color: #388e3c;
+}
+
+.btn-secondary {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #ff8787;
+}
+
+@media (max-width: 500px) {
+  .btn-group {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .btn-primary,
+  .btn-secondary {
+    max-width: 100%;
+  }
+}

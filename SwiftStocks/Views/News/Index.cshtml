@@ -1,54 +1,61 @@
+@model List<SwiftStocks.Models.NewsListItemViewModel>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stock News Hub</title>
-  <link rel="stylesheet" href="~/css/news.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swift Stocks News</title>
+  <link rel="stylesheet" href="~/css/news.css" />
 </head>
+
 <body>
-  <header>
-    <div class="logo">StockNews</div>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Markets</a>
-      <a href="#">Sectors</a>
-      <a href="#">Analysis</a>
-      <a href="#">Contact</a>
-    </nav>
-    <div class="search-bar">
-      <input type="text" placeholder="Search news..." id="searchInput">
+  @if (User.IsInRole("Admin"))
+  {
+    <div class="dashboard-header">
+      <h1>Welcome, @User.Identity.Name!</h1>
+      <p>Create news articles to keep your audience informed.</p>
+      <a href="/News/Create" style="
+       display: inline-block;
+       background-color: white;
+       padding: 0.5rem 1rem;
+       border-radius: 6px;
+       color: #333;
+       text-decoration: none;
+       font-weight: 500;
+       margin-top: 10px;
+       transition: background-color 0.2s ease;
+       box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+     " onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';">
+        ➕ Add new article
+      </a>
     </div>
-  </header>
+  }
+  <div class="container">
+    <div class="news-feed">
+      @foreach (var article in Model)
+      {
+        <div class="news-card">
+          <img src="@article.ImagePath" alt="News image" />
 
-  <main>
-    <section class="news-container">
-      <article class="news-card">
-        <h2>Market Hits Record High</h2>
-        <p>Global stock markets reached new heights today...</p>
-        <button class="read-more">Read More</button>
-      </article>
-      <article class="news-card">
-        <h2>Tech Stocks Surge</h2>
-        <p>Leading technology companies reported better-than-expected earnings...</p>
-        <button class="read-more">Read More</button>
-      </article>
-      <article class="news-card">
-        <h2>Energy Sector Volatility</h2>
-        <p>The energy sector is experiencing volatility as oil prices fluctuate...</p>
-        <button class="read-more">Read More</button>
-      </article>
-      <!-- Add more news cards as needed -->
-    </section>
-    <div class="cta">
-      Subscribe for Latest Updates
+          <div class="news-content">
+            <div>
+              <h2 class="news-title">@article.Title</h2>
+              <h5>By @article.AuthorName</h5>
+              <p class="news-description">@article.Description</p>
+            </div>
+            <div class="news-meta">
+              <span class="news-time">@article.PublishedAt.ToShortDateString()</span>
+              <a href="#" class="btn-cta">Read More</a>
+            </div>
+          </div>
+        </div>
+      }
     </div>
-  </main>
+  </div>
+  </div>
 
-  <footer>
-    <p>&copy; 2025 Stock News Hub. All rights reserved.</p>
-  </footer>
-
-  <script src="~/js/news.js"></script>
+  </div>
 </body>
+
 </html>

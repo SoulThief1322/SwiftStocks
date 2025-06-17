@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", x => {
                 if (data && data.c) {
                             cards[i].lastElementChild.textContent = "Current price: " + data.c;
                             total += data.c * cards[i].firstElementChild.firstElementChild.value;
-                            value.textContent = total;
-                            
+                            value.textContent = Math.round(total * 100) / 100;
+
                 }
             })
             .catch(error => {

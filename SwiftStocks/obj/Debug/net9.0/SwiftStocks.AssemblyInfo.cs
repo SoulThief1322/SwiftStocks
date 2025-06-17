@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SwiftStocks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99c4d7e12d68f6ac8e0b3c39bcc0a38150ddc67e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b286e3b9cf3aadddfda19aefa6c47b1c9902319a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SwiftStocks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SwiftStocks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

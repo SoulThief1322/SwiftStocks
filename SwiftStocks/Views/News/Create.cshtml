@@ -1,0 +1,30 @@
+@model CreateNewsViewModel
+<link rel="stylesheet" href="~/css/createNews.css"/>
+<div class="create-news-page">
+    <h2>Create News Article</h2>
+
+    <form asp-action="Create" method="post" enctype="multipart/form-data" class="create-form">
+        <div class="form-group">
+            <label asp-for="Title"></label>
+            <input asp-for="Title" class="form-control" placeholder="Enter news title..." />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Description"></label>
+            <textarea asp-for="Description" class="form-control" placeholder="Write the description..."></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ImageFile">Upload Image</label>
+            <input asp-for="ImageFile" type="file" accept="image/*" class="form-control" />
+            <span asp-validation-for="ImageFile" class="text-danger"></span>
+        </div>
+
+        <div class="btn-group">
+            <button type="submit" class="btn-primary">Submit</button>
+            <a asp-action="Index" class="btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>

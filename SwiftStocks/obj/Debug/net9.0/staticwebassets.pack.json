@@ -57,8 +57,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\imgs\\chart.png",
-      "PackagePath": "staticwebassets\\imgs\\chart.png"
+      "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\images\\chart.png",
+      "PackagePath": "staticwebassets\\images\\chart.png"
+    },
+    {
+      "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\images\\meta-growth.jpg",
+      "PackagePath": "staticwebassets\\images\\meta-growth.jpg"
     },
     {
       "Id": "C:\\Users\\gajok\\SwiftStocks\\SwiftStocks\\SwiftStocks\\wwwroot\\js\\home.js",

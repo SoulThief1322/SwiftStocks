@@ -27,7 +27,6 @@ builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("Emai
 builder.Services.AddTransient<IEmailSender, EmailSender>();
 
 
-
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())

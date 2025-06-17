@@ -1,0 +1,70 @@
+@page
+@model ConfirmEmailModel
+@{
+    ViewData["Title"] = "Confirm Email";
+}
+
+<div class="confirm-page">
+    <h1>@ViewData["Title"]</h1>
+    <div class="alert alert-info">@Model.StatusMessage</div>
+</div>
+
+<style>
+    .confirm-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 6rem 1rem 2rem;
+        min-height: 100vh;
+        background-color: #1c1f26;
+        color: #e1e6eb;
+        box-sizing: border-box;
+        max-width: 100vw;
+        overflow-x: hidden;
+        margin: 0 auto;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+        .confirm-page h1 {
+            color: #ffd580;
+            border-bottom: 2px solid #9c9eff;
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+            font-weight: 700;
+            font-size: 2rem;
+        }
+
+    .alert {
+        background-color: #252932;
+        color: #e1e6eb;
+        padding: 1rem 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(255, 213, 128, 0.15);
+        max-width: 480px;
+        width: 100%;
+        box-sizing: border-box;
+        font-weight: 600;
+        font-size: 1.1rem;
+        user-select: none;
+    }
+
+    media (max-width: 500px) {
+        .confirm-page
+
+    {
+        padding: 4rem 1rem 2rem;
+    }
+
+    .confirm-page h1 {
+        font-size: 1.5rem;
+    }
+
+    .alert {
+        font-size: 1rem;
+        padding: 0.75rem 1rem;
+    }
+
+    }
+</style>
